@@ -15,9 +15,43 @@ Config.EnableExplosionCheck = true
 Config.EnableScreenCheck = true
 Config.EnableCipherPanelDetection = true
 Config.EnableBackdoorCheck = true
+Config.EnableBehavioralDetection = true
 
 -- Godmode false-positive prevention
 Config.GodmodeGracePeriod = 30 -- Seconds after spawn/join to ignore godmode checks
+
+-- Behavioral/Aimbot/ESP Heuristics (server-side)
+Config.AimbotMinShots = 50
+Config.AimbotHeadshotRatioThreshold = 70 -- % headshots after min shots
+Config.AimbotSuspicionCount = 5 -- detections needed before action
+Config.AimbotConsecutiveHeadshots = 8
+Config.AimbotConsecutiveWindowMs = 2000
+Config.ESPLongDistanceThreshold = 120.0 -- meters
+Config.ESPLongDistanceHeadshots = 6
+Config.RapidFireMinIntervalMs = 60
+Config.RapidFireViolations = 25
+Config.AimSnapDeltaThreshold = 35 -- degrees
+Config.AimSnapIntervalMs = 50
+Config.AimSnapViolations = 3
+Config.AimSnapWindowMs = 4000
+Config.AimSnapCooldownMs = 3000
+Config.AimSnapShotWindowMs = 120 -- only count snap if a shot fired within X ms
+Config.AimAccelThresholdDegPerSec2 = 1800
+Config.AimAccelViolations = 3
+Config.AimAccelWindowMs = 4000
+Config.AimAccelCooldownMs = 3000
+Config.BehavioralDetectionCooldownMs = 15000
+Config.AverageTTKMs = 900 -- tune for your server (used to scale cooldowns)
+Config.BehavioralCooldownTTKMultiplier = 2
+
+-- TTK Tracker (average time-to-kill)
+Config.EnableTTKTracker = true
+Config.TTKSampleSize = 100
+
+-- Dashboard API (WPF client)
+Config.EnableDashboardEndpoint = true
+Config.DashboardApiKey = "" -- Optional: set a key and require X-API-Key header
+Config.DashboardMaxDetections = 200
 
 -- Thresholds
 Config.MaxSpeed = 700.0 -- Maximum speed in units/s
@@ -36,7 +70,7 @@ Config.EnableWebhook = true
 Config.WebhookURL = "https://discord.com/api/webhooks/1462346422396522517/Pz83PPj03tOLyfOrR8MsgVGNIy2A1fnAmQxGGUsVz-JZM5n2syGzzlLGupoywDuge_DM" -- Your Discord webhook URL
 Config.WebhookColor = 15158332 -- Red color
 Config.ScreenshotOnDetection = true -- Take screenshot on detection 
-config.screenshotswebhookurl = "https://discord.com/api/webhooks/1462346422396522517/Pz83PPj03tOLyfOrR8MsgVGNIy2A1fnAmQxGGUsVz-JZM5n2syGzzlLGupoywDuge_DM" -- Your Discord webhook URL for screenshots
+Config.ScreenshotsWebhookURL = "https://discord.com/api/webhooks/1468152414103408691/fYfusBiOkhrqhVog1rkkDJ7PMth_JsA6yTkDtLzeF1Ps3kwVBUj3aLEt9NiWvmgLOpKQ" -- Your Discord webhook URL for screenshots
 -- Reason Messages
 -- Whitelist
 Config.AdminAce = "SLES-anticheat.admin" -- ACE permission name checked by the script
@@ -142,13 +176,13 @@ Config.RandomScreenshots = true -- Random player screenshots
 Config.RandomScreenshotInterval = 300000 -- 5 minutes
 
 -- Client Scanner Settings
-Config.RequireClientScanner = false -- Set to true to FORCE players to run scanner (kicks if not running)
-Config.RecommendClientScanner = false -- Set to true to WARN players (doesn't kick, just reminds)
-Config.ClientScannerUrl = "https://github.com/yourusername/clientscanner/releases/download/v1.0/ClientScanner.exe" -- Download link for players
+Config.RequireClientScanner = true -- FORCE players to run scanner (kicks if not running)
+Config.RecommendClientScanner = false -- WARN players (doesn't kick, just reminds)
+Config.ClientScannerUrl = "https://github.com/dhanus177/sles-anticheat/releases/latest/download/ClientScanner.exe" -- Download link for players
 Config.ScannerHeartbeatTimeout = 120 -- Seconds before considering scanner offline
-Config.ShowDownloadPrompt = false -- Show download prompt when player joins
+Config.ShowDownloadPrompt = true -- Show download prompt when player joins
 Config.DownloadPromptInterval = 300 -- Show prompt every 5 minutes if not running scanner
-Config.KickOnScannerClose = false -- Kick players who close scanner after joining (recommended)
+Config.KickOnScannerClose = true -- Kick players who close scanner after joining (recommended)
 
 -- HWID Ban Settings
 Config.EnableHWIDBans = true

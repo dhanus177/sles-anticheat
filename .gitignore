@@ -10,6 +10,10 @@
 
 # Artifacts
 client-scanner/artifacts/
+release/
 
 # Logs
 *.log
+
+# Runtime screenshots
+screenshots/

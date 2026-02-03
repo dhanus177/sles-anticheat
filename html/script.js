@@ -2,6 +2,8 @@ let currentTab = 'players';
 let selectedPlayerId = null;
 let playerData = [];
 let banData = [];
+let detectionData = [];
+let configData = {};
 
 // Helper function to get resource name
 function GetParentResourceName() {
@@ -40,6 +42,14 @@ window.addEventListener('message', function(event) {
             
         case 'updateStats':
             updateStats(data.stats);
+            break;
+        case 'updateDetections':
+            detectionData = data.detections || [];
+            updateDetections();
+            break;
+        case 'updateConfig':
+            configData = data.config || {};
+            updateConfig();
             break;
             
         case 'notification':
@@ -98,6 +108,14 @@ function switchTab(tab) {
             method: 'POST',
             body: JSON.stringify({})
         }).catch(err => console.error('Failed to fetch bans:', err));
+    }
+
+    if (tab === 'logs') {
+        refreshDetections();
+    }
+
+    if (tab === 'settings') {
+        refreshConfig();
     }
 }
 
@@ -284,6 +302,20 @@ function refreshPlayers() {
     });
 }
 
+function refreshDetections() {
+    fetch(`https://${GetParentResourceName()}/requestRecentDetections`, {
+        method: 'POST',
+        body: JSON.stringify({})
+    });
+}
+
+function refreshConfig() {
+    fetch(`https://${GetParentResourceName()}/requestConfig`, {
+        method: 'POST',
+        body: JSON.stringify({})
+    });
+}
+
 // Filter players
 function filterPlayers() {
     const search = document.getElementById('playerSearch').value.toLowerCase();
@@ -322,6 +354,82 @@ function updateBanList() {
         `;
         
         container.appendChild(item);
+    });
+}
+
+function updateDetections() {
+    const container = document.getElementById('logsContainer');
+    container.innerHTML = '';
+
+    if (!detectionData || detectionData.length === 0) {
+        container.innerHTML = '<p class="no-data">No recent detections</p>';
+        return;
+    }
+
+    detectionData.forEach(log => {
+        const item = document.createElement('div');
+        item.className = 'log-item';
+
+        const time = log.timestamp ? new Date(log.timestamp).toLocaleString() : 'Unknown';
+        item.innerHTML = `
+            <div class="log-header">
+                <span class="log-player">${log.playerName || 'Unknown'}</span>
+                <span class="log-time">${time}</span>
+            </div>
+            <div class="log-type">${log.type || 'Unknown'}</div>
+            <div class="log-details">${log.details || ''}</div>
+        `;
+
+        container.appendChild(item);
+    });
+}
+
+function filterDetections() {
+    const search = document.getElementById('logSearch').value.toLowerCase();
+    const items = document.querySelectorAll('.log-item');
+
+    items.forEach(item => {
+        const text = item.textContent.toLowerCase();
+        item.style.display = text.includes(search) ? 'block' : 'none';
+    });
+}
+
+function updateConfig() {
+    const grid = document.getElementById('settingsGrid');
+    grid.innerHTML = '';
+
+    const sections = [
+        { title: 'Detections', keys: [
+            'EnableSpeedCheck','EnableTeleportCheck','EnableGodmodeCheck','EnableWeaponCheck','EnableVehicleSpawnCheck',
+            'EnableExplosionCheck','EnableBackdoorCheck','EnableCipherPanelDetection','EnableBehavioralDetection'
+        ]},
+        { title: 'Screenshots', keys: ['EnableScreenshotCheck','ScreenshotOnDetection','RandomScreenshots'] },
+        { title: 'Bans', keys: ['AutoBan','EnableHWIDBans'] },
+        { title: 'Thresholds', keys: ['MaxSpeed','MaxTeleportDistance','CheckInterval','ClientCheckInterval','GodmodeGracePeriod'] },
+        { title: 'Behavioral', keys: ['AimbotMinShots','AimbotHeadshotRatioThreshold','AimSnapDeltaThreshold','AimSnapShotWindowMs','AimAccelThresholdDegPerSec2','AverageTTKMs'] },
+        { title: 'Client Scanner', keys: ['RequireClientScanner','RecommendClientScanner','ScannerHeartbeatTimeout','KickOnScannerClose'] }
+    ];
+
+    sections.forEach(section => {
+        const card = document.createElement('div');
+        card.className = 'settings-card';
+        card.innerHTML = `<div class="settings-title">${section.title}</div>`;
+
+        section.keys.forEach(key => {
+            if (configData[key] === undefined) return;
+            const value = configData[key];
+            const isBool = typeof value === 'boolean';
+            const badge = isBool
+                ? `<span class="badge ${value ? 'badge-on' : 'badge-off'}">${value ? 'On' : 'Off'}</span>`
+                : `<span class="badge badge-neutral">${value}</span>`;
+
+            const row = document.createElement('div');
+            row.className = 'settings-row';
+            row.innerHTML = `<span class="settings-key">${key}</span>${badge}`;
+            card.appendChild(row);
+        });
+
+        grid.appendChild(card);
     });
 }
 
@@ -393,7 +501,3 @@ function closeAlert() {
     document.getElementById('adminAlert').classList.add('hidden');
 }
 
-// Get current resource name
-function GetParentResourceName() {
-    return 'anticheat';
-}

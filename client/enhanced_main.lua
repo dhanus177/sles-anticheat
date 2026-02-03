@@ -29,6 +29,8 @@ CreateThread(function()
 end)
 
 -- Monitor weapon firing for aimbot detection
+local lastShotTime = 0
+
 CreateThread(function()
     while true do
         Wait(0)
@@ -36,14 +38,100 @@ CreateThread(function()
         local ped = PlayerPedId()
         
         if IsPedShooting(ped) then
+            lastShotTime = GetGameTimer()
             TriggerServerEvent('anticheat:weaponFired')
             
-            -- Check if hit was headshot
-            local targetPed, targetBone = GetPedLastDamageBone(ped)
-            if targetBone == 31086 then -- Head bone
-                TriggerServerEvent('anticheat:shotFired', true, targetPed)
+            local isHeadshot = false
+            local targetServerId = -1
+            local distance = -1.0
+            local isTargetPlayer = false
+
+            local aiming, target = GetEntityPlayerIsFreeAimingAt(PlayerId())
+            if aiming and target and IsEntityAPed(target) then
+                local playerCoords = GetEntityCoords(ped)
+                local targetCoords = GetEntityCoords(target)
+                distance = #(playerCoords - targetCoords)
+
+                if IsPedAPlayer(target) then
+                    local targetPlayer = NetworkGetPlayerIndexFromPed(target)
+                    if targetPlayer ~= -1 then
+                        targetServerId = GetPlayerServerId(targetPlayer)
+                        isTargetPlayer = true
+                    end
+                end
+
+                local hasBone, targetBone = GetPedLastDamageBone(target)
+                if hasBone and targetBone == 31086 then -- Head bone
+                    isHeadshot = true
+                end
+            end
+
+            TriggerServerEvent('anticheat:shotFired', isHeadshot, targetServerId, distance, isTargetPlayer)
+        end
+    end
+end)
+
+-- Aim-snap detection (client aim delta)
+local lastAimRot = nil
+local lastAimTime = 0
+local lastAimSnapReport = 0
+local lastAimVel = 0
+local lastAimAccelReport = 0
+
+local function AngleDiff(a, b)
+    local diff = a - b
+    diff = (diff + 180.0) % 360.0 - 180.0
+    return math.abs(diff)
+end
+
+CreateThread(function()
+    while true do
+        Wait(10)
+
+        local playerId = PlayerId()
+        if not IsPlayerFreeAiming(playerId) then
+            lastAimRot = nil
+            lastAimTime = 0
+            lastAimVel = 0
+        else
+            local aiming, target = GetEntityPlayerIsFreeAimingAt(playerId)
+            if aiming and target and IsEntityAPed(target) then
+                local now = GetGameTimer()
+                local rot = GetGameplayCamRot(2)
+
+                if lastAimRot then
+                    local dt = now - lastAimTime
+                    local dPitch = AngleDiff(rot.x, lastAimRot.x)
+                    local dYaw = AngleDiff(rot.z, lastAimRot.z)
+                    local delta = math.max(dPitch, dYaw)
+
+                    local dtSec = dt > 0 and (dt / 1000.0) or 0
+                    local vel = dtSec > 0 and (delta / dtSec) or 0
+                    local accel = dtSec > 0 and math.abs(vel - lastAimVel) / dtSec or 0
+
+                    if dt > 0 and dt <= (Config.AimSnapIntervalMs or 50) and
+                       delta >= (Config.AimSnapDeltaThreshold or 35) and
+                       (now - lastAimSnapReport) >= (Config.AimSnapCooldownMs or 3000) and
+                       (now - lastShotTime) <= (Config.AimSnapShotWindowMs or 120) then
+                        TriggerServerEvent('anticheat:aimSnap', delta, dt, now - lastShotTime)
+                        lastAimSnapReport = now
+                    end
+
+                    if accel >= (Config.AimAccelThresholdDegPerSec2 or 1800) and
+                       (now - lastAimAccelReport) >= (Config.AimAccelCooldownMs or 3000) then
+                        TriggerServerEvent('anticheat:aimAccel', accel, delta, dt)
+                        lastAimAccelReport = now
+                    end
+
+                    lastAimVel = vel
+                end
+
+                lastAimRot = rot
+                lastAimTime = now
             else
-                TriggerServerEvent('anticheat:shotFired', false, targetPed)
+                lastAimRot = nil
+                lastAimTime = 0
+                lastAimVel = 0
             end
         end
     end

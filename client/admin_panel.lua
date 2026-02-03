@@ -93,6 +93,16 @@ RegisterNUICallback('banHWIDPlayer', function(data, cb)
     cb('ok')
 end)
 
+RegisterNUICallback('requestRecentDetections', function(data, cb)
+    TriggerServerEvent('anticheat:requestRecentDetections')
+    cb('ok')
+end)
+
+RegisterNUICallback('requestConfig', function(data, cb)
+    TriggerServerEvent('anticheat:requestConfig')
+    cb('ok')
+end)
+
 -- Receive player list from server
 RegisterNetEvent('anticheat:receivePlayerList')
 AddEventHandler('anticheat:receivePlayerList', function(players)
@@ -117,6 +127,24 @@ AddEventHandler('anticheat:receiveBanList', function(bans)
     SendNUIMessage({
         type = "updateBanList",
         bans = bans
+    })
+end)
+
+-- Receive detections
+RegisterNetEvent('anticheat:receiveDetections')
+AddEventHandler('anticheat:receiveDetections', function(detections)
+    SendNUIMessage({
+        type = "updateDetections",
+        detections = detections
+    })
+end)
+
+-- Receive config
+RegisterNetEvent('anticheat:receiveConfig')
+AddEventHandler('anticheat:receiveConfig', function(config)
+    SendNUIMessage({
+        type = "updateConfig",
+        config = config
     })
 end)
 
@@ -162,6 +190,8 @@ AddEventHandler('anticheat:openPanel', function()
     -- Request initial data
     TriggerServerEvent('anticheat:requestPlayerList')
     TriggerServerEvent('anticheat:requestStats')
+    TriggerServerEvent('anticheat:requestRecentDetections')
+    TriggerServerEvent('anticheat:requestConfig')
     print("^2[ADMIN-PANEL-CLIENT]^7 Panel opened successfully")
 end)
 

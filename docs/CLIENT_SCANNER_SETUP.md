@@ -74,6 +74,18 @@ https://github.com/<your-user>/<your-repo>/releases/download/v1.0.0/ClientScanne
 2. Update `Config.ClientScannerUrl` in config.lua
 3. Add to server rules: "ClientScanner recommended for best protection"
 
+### Configure Server URL
+Create `ClientScanner.config.json` next to the EXE:
+```json
+{
+	"serverUrl": "http://YOUR_SERVER_IP:30120/anticheat-client",
+	"scanIntervalMs": 5000,
+	"heartbeatIntervalMs": 30000,
+	"maxMissedHeartbeats": 3
+}
+```
+**Important:** Run the scanner as Administrator for best coverage.
+
 ### Player Steps:
 1. Download ClientScanner.exe
 2. Right-click → Run as Administrator

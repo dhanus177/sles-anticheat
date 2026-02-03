@@ -13,6 +13,7 @@ namespace WpfClient.ViewModels;
 public partial class MainViewModel : ObservableObject
 {
     private static readonly HttpClient Http = new();
+    private static readonly DashboardConfig Config = DashboardConfig.Load();
 
     [ObservableProperty]
     private ObservableCollection<Detection> _detections = new();
@@ -31,10 +32,13 @@ public partial class MainViewModel : ObservableObject
     {
         try
         {
-            // TODO: replace with your endpoint or local file path
-            // Example: var uri = "http://localhost:30120/anticheat/detections";
-            var uri = "http://localhost:30120/anticheat/detections";
-            using var response = await Http.GetAsync(uri);
+            using var request = new HttpRequestMessage(HttpMethod.Get, Config.ServerUrl);
+            if (!string.IsNullOrWhiteSpace(Config.ApiKey))
+            {
+                request.Headers.TryAddWithoutValidation("X-API-Key", Config.ApiKey);
+            }
+
+            using var response = await Http.SendAsync(request);
             response.EnsureSuccessStatusCode();
 
             var json = await response.Content.ReadAsStringAsync();
@@ -50,6 +54,34 @@ public partial class MainViewModel : ObservableObject
         {
             // Minimal error surfacing; extend with dialogs/toasts as needed
             LastUpdated = $"Error: {ex.Message}";
+        }
+    }
+
+    private sealed class DashboardConfig
+    {
+        public string ServerUrl { get; init; } = "http://127.0.0.1:30120/anticheat/detections";
+        public string ApiKey { get; init; } = "";
+
+        public static DashboardConfig Load()
+        {
+            try
+            {
+                var path = System.IO.Path.Combine(AppContext.BaseDirectory, "appsettings.json");
+                if (!System.IO.File.Exists(path))
+                {
+                    return new DashboardConfig();
+                }
+
+                var json = System.IO.File.ReadAllText(path);
+                return JsonSerializer.Deserialize<DashboardConfig>(json, new JsonSerializerOptions
+                {
+                    PropertyNameCaseInsensitive = true
+                }) ?? new DashboardConfig();
+            }
+            catch
+            {
+                return new DashboardConfig();
+            }
         }
     }
 }

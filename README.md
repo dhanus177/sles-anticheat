@@ -93,6 +93,41 @@ Config.MaxTeleportDistance = 100.0   -- Lower = stricter
 Config.CheckInterval = 5000          -- Lower = more frequent checks
 ```
 
+### Behavioral/Aimbot/ESP Heuristics
+Tune these in `config.lua` (server‑side heuristics):
+```lua
+Config.EnableBehavioralDetection = true
+Config.AimbotMinShots = 50
+Config.AimbotHeadshotRatioThreshold = 70
+Config.AimbotSuspicionCount = 5
+Config.AimbotConsecutiveHeadshots = 8
+Config.AimbotConsecutiveWindowMs = 2000
+Config.ESPLongDistanceThreshold = 120.0
+Config.ESPLongDistanceHeadshots = 6
+Config.RapidFireMinIntervalMs = 60
+Config.RapidFireViolations = 25
+Config.AimSnapDeltaThreshold = 35
+Config.AimSnapIntervalMs = 50
+Config.AimSnapViolations = 3
+Config.AimSnapWindowMs = 4000
+Config.AimSnapCooldownMs = 3000
+Config.AimSnapShotWindowMs = 120
+Config.AimAccelThresholdDegPerSec2 = 1800
+Config.AimAccelViolations = 3
+Config.AimAccelWindowMs = 4000
+Config.AimAccelCooldownMs = 3000
+Config.AverageTTKMs = 900
+Config.BehavioralCooldownTTKMultiplier = 2
+```
+
+### Average TTK Tracker
+Enable server-side tracking of average time-to-kill:
+```lua
+Config.EnableTTKTracker = true
+Config.TTKSampleSize = 100
+```
+The server console will print rolling average TTK once the sample size is reached.
+
 ### Whitelist Weapons
 
 Add allowed weapons to `config.lua`:
@@ -125,12 +160,20 @@ You can manually edit this file to manage bans.
 ✅ No dependencies required  
 ✅ Lightweight (minimal performance impact)
 
-✅ **Can detect:**
+## Limitations
+
+⚠️ **Important limitations:**
+- This is **not** a kernel-level anti-cheat. Advanced private menus and external ESP can still bypass detection.
+- Client scanning depends on players running the **ClientScanner.exe** (can be bypassed by skilled attackers).
+- Behavioral detections are **heuristics** and can produce false positives if tuned too aggressively.
+- Screenshot checks require `screenshot-basic` and Discord webhook limits apply.
+
+✅ **Strong coverage (when configured correctly):**
 - Speed hacks, teleport, god mode
-- Weapon spawning, vehicle spawning
-- No-clip, fly hacks
-- Suspicious explosions
-- Resource injection attempts
+- Weapon/vehicle spawning
+- No-clip/fly patterns
+- Rapid fire, aim‑snap patterns, long‑range headshots
+- Suspicious explosions and resource injection attempts
 
 ## Support
 
@@ -145,3 +188,48 @@ Check server console for detection logs:
 2. Replace the `anticheat` folder
 3. Start the server
 4. Your bans will be preserved in `bans.json`
+
+## Documentation
+
+All guides are in the `docs/` folder:
+- `docs/CLIENT_SCANNER_SETUP.md`
+- `docs/CLIENT_DISTRIBUTION_GUIDE.md`
+- `docs/INSTALLATION_CHECKLIST.md`
+- `docs/QUICK_REFERENCE.md`
+- `docs/UPDATE_SUMMARY.md`
+- `docs/BACKDOOR_CIPHER_PROTECTION.md`
+- `docs/ENHANCED_BACKDOOR_BLOCKING.md`
+- `docs/BACKDOOR_ENHANCEMENT_SUMMARY.md`
+- `docs/README_SERVERSIDE_ONLY.md`
+- `docs/LOGO_SETUP.md`
+- `docs/COMPLETE_FEATURES.md`
+
+## WPF Dashboard (Optional)
+
+The `wpf-client` folder contains a Windows dashboard app.
+
+**Setup:**
+1. Set `Config.EnableDashboardEndpoint = true` in `config.lua`.
+2. (Optional) Set `Config.DashboardApiKey` and put the same value in `wpf-client/appsettings.json`.
+3. Build and run the app:
+    - Open `wpf-client/WpfClient.csproj` in Visual Studio
+    - Run (F5)
+
+The app reads from: `http://127.0.0.1:30120/anticheat/detections` by default.
+
+## Syncing Edits Between Office & Home
+
+Use Git so both PCs stay in sync:
+
+1. **Office PC**
+    - Pull latest: `git pull`
+    - Make edits
+    - Commit: `git add .` then `git commit -m "your message"`
+    - Push: `git push`
+
+2. **Home PC**
+    - Pull latest: `git pull`
+    - Make edits
+    - Commit + push the same way
+
+**Tip:** Always pull before you start editing on another PC.

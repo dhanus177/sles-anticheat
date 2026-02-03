@@ -18,6 +18,42 @@ local function HasAdminPermission(src)
     return false
 end
 
+local function GetConfigSnapshot()
+    return {
+        EnableSpeedCheck = Config.EnableSpeedCheck,
+        EnableTeleportCheck = Config.EnableTeleportCheck,
+        EnableGodmodeCheck = Config.EnableGodmodeCheck,
+        EnableWeaponCheck = Config.EnableWeaponCheck,
+        EnableVehicleSpawnCheck = Config.EnableVehicleSpawnCheck,
+        EnableResourceCheck = Config.EnableResourceCheck,
+        EnableExplosionCheck = Config.EnableExplosionCheck,
+        EnableScreenCheck = Config.EnableScreenCheck,
+        EnableBackdoorCheck = Config.EnableBackdoorCheck,
+        EnableCipherPanelDetection = Config.EnableCipherPanelDetection,
+        EnableBehavioralDetection = Config.EnableBehavioralDetection,
+        EnableScreenshotCheck = Config.EnableScreenshotCheck,
+        ScreenshotOnDetection = Config.ScreenshotOnDetection,
+        RandomScreenshots = Config.RandomScreenshots,
+        EnableHWIDBans = Config.EnableHWIDBans,
+        AutoBan = Config.AutoBan,
+        MaxSpeed = Config.MaxSpeed,
+        MaxTeleportDistance = Config.MaxTeleportDistance,
+        CheckInterval = Config.CheckInterval,
+        ClientCheckInterval = Config.ClientCheckInterval,
+        GodmodeGracePeriod = Config.GodmodeGracePeriod,
+        AimbotMinShots = Config.AimbotMinShots,
+        AimbotHeadshotRatioThreshold = Config.AimbotHeadshotRatioThreshold,
+        AimSnapDeltaThreshold = Config.AimSnapDeltaThreshold,
+        AimSnapShotWindowMs = Config.AimSnapShotWindowMs,
+        AimAccelThresholdDegPerSec2 = Config.AimAccelThresholdDegPerSec2,
+        AverageTTKMs = Config.AverageTTKMs,
+        RequireClientScanner = Config.RequireClientScanner,
+        RecommendClientScanner = Config.RecommendClientScanner,
+        ScannerHeartbeatTimeout = Config.ScannerHeartbeatTimeout,
+        KickOnScannerClose = Config.KickOnScannerClose
+    }
+end
+
 -- Check if player is admin
 RegisterServerEvent('anticheat:checkAdmin')
 AddEventHandler('anticheat:checkAdmin', function()
@@ -104,6 +140,27 @@ AddEventHandler('anticheat:requestBanList', function()
     TriggerClientEvent('anticheat:receiveBanList', source, Bans or {})
 end)
 
+-- Send recent detections
+RegisterServerEvent('anticheat:requestRecentDetections')
+AddEventHandler('anticheat:requestRecentDetections', function()
+    local source = source
+
+    if source == 0 or not HasAdminPermission(source) then return end
+
+    local detections = GetRecentDetections and GetRecentDetections() or {}
+    TriggerClientEvent('anticheat:receiveDetections', source, detections)
+end)
+
+-- Send config snapshot
+RegisterServerEvent('anticheat:requestConfig')
+AddEventHandler('anticheat:requestConfig', function()
+    local source = source
+
+    if source == 0 or not HasAdminPermission(source) then return end
+
+    TriggerClientEvent('anticheat:receiveConfig', source, GetConfigSnapshot())
+end)
+
 -- Send stats
 RegisterServerEvent('anticheat:requestStats')
 AddEventHandler('anticheat:requestStats', function()
@@ -114,7 +171,7 @@ AddEventHandler('anticheat:requestStats', function()
     local stats = {
         onlinePlayers = #GetPlayers(),
         totalBans = Bans and #Bans or 0,
-        recentDetections = 0, -- Would need detection tracking
+        recentDetections = (GetRecentDetections and #GetRecentDetections()) or 0,
         hwidBans = HWIDBans and #HWIDBans or 0
     }
     

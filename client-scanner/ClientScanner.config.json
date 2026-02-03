@@ -1,0 +1,6 @@
+{
+  "serverUrl": "http://127.0.0.1:30120/anticheat-client",
+  "scanIntervalMs": 5000,
+  "heartbeatIntervalMs": 30000,
+  "maxMissedHeartbeats": 3
+}

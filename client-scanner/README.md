@@ -20,6 +20,21 @@ dotnet publish -c Release -r win-x64 --self-contained
 
 Output: `bin/Release/net8.0-windows/win-x64/publish/ClientScanner.exe`
 
+## Configuration
+Create or edit `ClientScanner.config.json` next to the EXE:
+```json
+{
+    "serverUrl": "http://YOUR_SERVER_IP:30120/anticheat-client",
+    "scanIntervalMs": 5000,
+    "heartbeatIntervalMs": 30000,
+    "maxMissedHeartbeats": 3
+}
+```
+**Tip:** Run as Administrator for best detection coverage.
+
+## Watchdog (Anti‑Tamper)
+The scanner includes a watchdog that exits if the scan loop stalls. This helps detect tampering.
+
 ## GitHub Builds & Releases
 This repo includes GitHub Actions workflows:
 - **CI build** uploads `ClientScanner.exe` as an artifact on every push/PR

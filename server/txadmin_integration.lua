@@ -11,26 +11,34 @@ CreateThread(function()
         txAdminAvailable = true
         print("^2[ANTI-CHEAT]^7 txAdmin integration enabled")
         
-        -- List all available txAdmin exports
+        -- List available txAdmin exports via resource metadata (safe, no missing-export errors)
         print("^3[ANTI-CHEAT]^7 Available txAdmin exports:")
-        if exports['monitor'] then
-            local exportsList = {
-                'checkPerms',
-                'getPermissions',
-                'setPermissions',
-                'isPlayerAdmin',
-                'logAction',
-                'RegisterPluginEvent',
-                'checkAdminPerms',
-                'txaBan',
-            }
-            
-            for _, exportName in ipairs(exportsList) do
-                if type(exports['monitor'][exportName]) == 'function' then
-                    print(string.format("  ^2✓^7 %s", exportName))
-                else
-                    print(string.format("  ^1✗^7 %s (not available)", exportName))
-                end
+
+        local exported = {}
+        local count = GetNumResourceMetadata('monitor', 'exports') or 0
+        for i = 0, count - 1 do
+            local name = GetResourceMetadata('monitor', 'exports', i)
+            if name then
+                exported[name] = true
+            end
+        end
+
+        local exportsList = {
+            'checkPerms',
+            'getPermissions',
+            'setPermissions',
+            'isPlayerAdmin',
+            'logAction',
+            'RegisterPluginEvent',
+            'checkAdminPerms',
+            'txaBan',
+        }
+
+        for _, exportName in ipairs(exportsList) do
+            if exported[exportName] then
+                print(string.format("  ^2✓^7 %s", exportName))
+            else
+                print(string.format("  ^1✗^7 %s (not available)", exportName))
             end
         end
     else
@@ -79,6 +87,11 @@ function DetectionHandler(source, reason, detectionType, details)
     -- Record in player stats
     if RecordViolation then
         RecordViolation(source, detectionType, details)
+    end
+
+    -- Store for dashboard
+    if LogDetectionRecord then
+        LogDetectionRecord(source, detectionType, details)
     end
     
     -- Take screenshot if enabled

@@ -8,6 +8,29 @@ local PlayerScannerHistory = {} -- Track if scanner was ever running for each pl
 
 -- HTTP endpoint for client scanner reports
 SetHttpHandler(function(req, res)
+    if req.path == '/anticheat/detections' and req.method == 'GET' then
+        if not Config.EnableDashboardEndpoint then
+            res.writeHead(404)
+            res.send("Not found")
+            return
+        end
+
+        if Config.DashboardApiKey and Config.DashboardApiKey ~= "" then
+            local headers = req.headers or {}
+            local apiKey = headers["x-api-key"] or headers["X-API-Key"]
+            if apiKey ~= Config.DashboardApiKey then
+                res.writeHead(401)
+                res.send("Unauthorized")
+                return
+            end
+        end
+
+        local payload = json.encode(GetRecentDetections and GetRecentDetections() or {})
+        res.writeHead(200, { ["Content-Type"] = "application/json" })
+        res.send(payload)
+        return
+    end
+
     if req.path == '/anticheat-client' and req.method == 'POST' then
         local data = json.decode(req.body)
         
@@ -27,6 +50,25 @@ SetHttpHandler(function(req, res)
                     PlayerScannerHistory[identifier] = true
                 end
                 
+                res.writeHead(200, { ["Content-Type"] = "application/json" })
+                res.send(json.encode({ success = true }))
+                return
+            end
+
+            -- Handle watchdog/tamper alerts
+            if data.type == "Watchdog" then
+                print(string.format("^1[CLIENT-SCANNER]^7 Watchdog alert: %s (%s/%s)",
+                    data.reason or "Unknown", data.machineName or "Unknown", data.userName or "Unknown"))
+
+                if Config.EnableWebhook then
+                    SendWebhook("⚠️ Client Scanner Watchdog", string.format(
+                        "**Reason:** %s\n**Machine:** %s\n**User:** %s",
+                        data.reason or "Unknown",
+                        data.machineName or "Unknown",
+                        data.userName or "Unknown"
+                    ))
+                end
+
                 res.writeHead(200, { ["Content-Type"] = "application/json" })
                 res.send(json.encode({ success = true }))
                 return

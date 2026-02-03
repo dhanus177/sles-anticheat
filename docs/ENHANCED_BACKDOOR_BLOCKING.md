@@ -277,7 +277,6 @@ Should report all suspicious resources currently running.
 
 - [BACKDOOR_CIPHER_PROTECTION.md](BACKDOOR_CIPHER_PROTECTION.md) - Full protection guide
 - [QUICK_REFERENCE.md](QUICK_REFERENCE.md) - Quick reference
-- [config.lua](config.lua) - Configuration file
 
 ## ✅ Checklist
 

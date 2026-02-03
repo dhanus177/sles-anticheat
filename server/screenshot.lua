@@ -43,7 +43,7 @@ function RequestPlayerScreenshot(source, reason)
         print(string.format("^2[SCREENSHOT]^7 Captured from %s - Reason: %s", playerName, reason))
         
         -- Send to webhook
-        if Config.EnableWebhook and Config.WebhookURL ~= "" then
+        if Config.EnableWebhook and (Config.ScreenshotsWebhookURL or Config.WebhookURL) ~= "" then
             SendWebhookWithImage("📸 Screenshot Captured", string.format(
                 "**Player:** %s\n**Reason:** %s\n**Time:** %s",
                 playerName, reason, os.date("%Y-%m-%d %H:%M:%S")
@@ -102,22 +102,65 @@ end, false)
 
 -- Send screenshot to Discord with image
 function SendWebhookWithImage(title, description, imageData)
-    if not Config.EnableWebhook or Config.WebhookURL == "" then return end
-    
-    -- Convert image data to base64
-    local base64Image = "data:image/jpeg;base64," .. (imageData and tostring(imageData) or "")
-    
-    local embed = {
-        title = title,
-        description = description,
-        color = 15158332, -- Red
-        image = {
-            url = base64Image
-        },
-        timestamp = os.date('!%Y-%m-%dT%H:%M:%SZ')
-    }
-    
-    SendWebhookEmbed(embed)
+    if not Config.EnableWebhook then return end
+    local webhookUrl = Config.ScreenshotsWebhookURL or Config.WebhookURL
+    if not webhookUrl or webhookUrl == "" then return end
+
+    local function base64decode(data)
+        if not data then return "" end
+        data = data:gsub("[^%w%+/%=]", "")
+        return (data:gsub(".", function(x)
+            if x == "=" then return "" end
+            local r, f = "", ("ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/":find(x) - 1)
+            for i = 6, 1, -1 do
+                r = r .. (f % 2^i - f % 2^(i - 1) > 0 and "1" or "0")
+            end
+            return r
+        end):gsub("%d%d%d?%d?%d?%d?%d?%d?", function(x)
+            if #x ~= 8 then return "" end
+            local c = 0
+            for i = 1, 8 do
+                c = c + (x:sub(i, i) == "1" and 2^(8 - i) or 0)
+            end
+            return string.char(c)
+        end))
+    end
+
+    local boundary = "----anticheat-boundary-" .. tostring(os.time())
+    local payload = json.encode({
+        embeds = {
+            {
+                title = title,
+                description = description,
+                color = 15158332,
+                image = { url = "attachment://screenshot.jpg" },
+                timestamp = os.date('!%Y-%m-%dT%H:%M:%SZ')
+            }
+        }
+    })
+
+    local binaryImage = base64decode(tostring(imageData))
+
+    local body = table.concat({
+        "--" .. boundary,
+        "Content-Disposition: form-data; name=\"payload_json\"",
+        "Content-Type: application/json",
+        "",
+        payload,
+        "--" .. boundary,
+        "Content-Disposition: form-data; name=\"files[0]\"; filename=\"screenshot.jpg\"",
+        "Content-Type: image/jpeg",
+        "",
+        binaryImage,
+        "--" .. boundary .. "--",
+        ""
+    }, "\r\n")
+
+    PerformHttpRequest(webhookUrl, function(err, text, headers)
+        if err ~= 200 then
+            print(string.format("^1[WEBHOOK]^7 Error sending screenshot: %d", err))
+        end
+    end, 'POST', body, {['Content-Type'] = 'multipart/form-data; boundary=' .. boundary})
 end
 
 -- Send embed to webhook

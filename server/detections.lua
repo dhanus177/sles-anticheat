@@ -1,5 +1,29 @@
 local PlayerData = {}
 
+-- Recent detections for dashboard
+local RecentDetections = {}
+
+function LogDetectionRecord(source, detectionType, details)
+    local playerName = GetPlayerName(source) or "Unknown"
+    local record = {
+        playerName = playerName,
+        type = detectionType,
+        details = details,
+        timestamp = os.date('!%Y-%m-%dT%H:%M:%SZ')
+    }
+
+    table.insert(RecentDetections, 1, record)
+
+    local max = Config.DashboardMaxDetections or 200
+    while #RecentDetections > max do
+        table.remove(RecentDetections)
+    end
+end
+
+function GetRecentDetections()
+    return RecentDetections
+end
+
 -- Centralized bypass check (ACE or identifier list)
 local function IsPlayerBypassed(source)
     if IsPlayerAceAllowed(source, Config.AdminAce) or IsPlayerAceAllowed(source, Config.AdminBypassAce) then
@@ -236,6 +260,11 @@ function DetectionHandler(source, reason, detectionType, details)
     -- Record in player stats
     if RecordViolation then
         RecordViolation(source, detectionType, details)
+    end
+
+    -- Store for dashboard
+    if LogDetectionRecord then
+        LogDetectionRecord(source, detectionType, details)
     end
     
     -- Take screenshot if enabled
