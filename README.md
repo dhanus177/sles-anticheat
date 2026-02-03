@@ -125,13 +125,6 @@ You can manually edit this file to manage bans.
 ✅ No dependencies required  
 ✅ Lightweight (minimal performance impact)
 
-## Limitations
-
-⚠️ **Cannot detect:**
-- Cheat Engine running on player's PC (client-side processes)
-- Advanced private menus with anti-detection
-- External ESP tools
-
 ✅ **Can detect:**
 - Speed hacks, teleport, god mode
 - Weapon spawning, vehicle spawning
