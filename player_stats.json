@@ -1,0 +1,5184 @@
+{
+    "stats": {
+        "license:01f1e32448e228b9e9bce4ce5ca43a57efc01811": {
+            "reputationScore": 100,
+            "detections": [],
+            "adminNotes": [],
+            "name": " Roman Carter",
+            "joinCount": 1,
+            "violations": [],
+            "bans": 0,
+            "totalPlaytime": 6720,
+            "kicks": 0,
+            "cleanTime": 0,
+            "trustLevel": "Normal",
+            "warnings": 0,
+            "lastSeen": 1769361608
+        },
+        "license:c41cd45ecb13d8e18824a886647025a7944eb2f4": {
+            "reputationScore": 100,
+            "detections": [],
+            "adminNotes": [],
+            "name": "Carlos Dammika",
+            "joinCount": 3,
+            "violations": [],
+            "bans": 0,
+            "totalPlaytime": 8280,
+            "kicks": 0,
+            "cleanTime": 0,
+            "trustLevel": "Normal",
+            "warnings": 0,
+            "lastSeen": 1769456909
+        },
+        "license:0c901ee845f5d35f67854030384cb7ca2c208734": {
+            "reputationScore": 100,
+            "detections": [],
+            "adminNotes": [],
+            "name": "Melani evan",
+            "joinCount": 7,
+            "violations": [],
+            "bans": 0,
+            "totalPlaytime": 14880,
+            "kicks": 0,
+            "cleanTime": 0,
+            "trustLevel": "Trusted",
+            "warnings": 0,
+            "lastSeen": 1769361762
+        },
+        "license:7fba874c5fb77b6e35f259493c7572f1aa7571c6": {
+            "reputationScore": 100,
+            "detections": [],
+            "adminNotes": [],
+            "name": "trevan fernando",
+            "joinCount": 9,
+            "violations": [],
+            "bans": 0,
+            "totalPlaytime": 33120,
+            "kicks": 0,
+            "cleanTime": 0,
+            "trustLevel": "Trusted",
+            "warnings": 0,
+            "lastSeen": 1769898403
+        },
+        "license:505d39aa33ab47edff28f8da26a6186975bdd0bd": {
+            "reputationScore": 77,
+            "detections": [
+                {
+                    "timestamp": 1769445811,
+                    "details": "Player is invincible",
+                    "type": "Godmode"
+                }
+            ],
+            "adminNotes": [],
+            "name": "milk putha",
+            "joinCount": 8,
+            "violations": [
+                {
+                    "change": -25,
+                    "reason": "Godmode: Player is invincible",
+                    "newScore": 75,
+                    "timestamp": 1769445811
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 76,
+                    "timestamp": 1769449522
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 77,
+                    "timestamp": 1769453127
+                }
+            ],
+            "bans": 0,
+            "totalPlaytime": 21360,
+            "kicks": 0,
+            "cleanTime": 50,
+            "trustLevel": "Normal",
+            "warnings": 0,
+            "lastSeen": 1769456187
+        },
+        "license:82a1d834085f67ab1c0087b5eedfd9c5c56be43b": {
+            "reputationScore": 100,
+            "detections": [],
+            "adminNotes": [],
+            "name": "Alina Isabel",
+            "joinCount": 1,
+            "violations": [],
+            "bans": 0,
+            "totalPlaytime": 2160,
+            "kicks": 0,
+            "cleanTime": 0,
+            "trustLevel": "Normal",
+            "warnings": 0,
+            "lastSeen": 1769883259
+        },
+        "license:ee085c7f86b5ca4e90c0c94200a0a69b9ac7c573": {
+            "reputationScore": 100,
+            "detections": [],
+            "adminNotes": [],
+            "name": "Chula Perera",
+            "joinCount": 36,
+            "violations": [],
+            "bans": 0,
+            "totalPlaytime": 86640,
+            "kicks": 0,
+            "cleanTime": 0,
+            "trustLevel": "Trusted",
+            "warnings": 0,
+            "lastSeen": 1769975026
+        },
+        "license:9117ac08502e63f48e3557572ba3817862e0c350": {
+            "reputationScore": 78,
+            "detections": [
+                {
+                    "details": "Player is invincible",
+                    "timestamp": 1770037841,
+                    "type": "Godmode"
+                }
+            ],
+            "adminNotes": [],
+            "name": "Sachin DeSilva",
+            "joinCount": 9,
+            "violations": [
+                {
+                    "change": -25,
+                    "reason": "Godmode: Player is invincible",
+                    "newScore": 75,
+                    "timestamp": 1770037841
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 76,
+                    "timestamp": 1770042072
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 77,
+                    "timestamp": 1770046755
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 78,
+                    "timestamp": 1770051497
+                }
+            ],
+            "bans": 0,
+            "totalPlaytime": 19860,
+            "kicks": 0,
+            "cleanTime": 18,
+            "trustLevel": "Normal",
+            "warnings": 0,
+            "lastSeen": 1770052609
+        },
+        "license:72ee1c5fdc4d50d54325e8182dfa1188c89dec08": {
+            "reputationScore": 100,
+            "detections": [],
+            "adminNotes": [],
+            "name": "Dedex Desilva",
+            "joinCount": 3,
+            "violations": [],
+            "bans": 0,
+            "totalPlaytime": 6240,
+            "kicks": 0,
+            "cleanTime": 0,
+            "trustLevel": "Trusted",
+            "warnings": 0,
+            "lastSeen": 1769361727
+        },
+        "license:7088aaa14a221092f0c3a81aa3fe43c0851e068d": {
+            "reputationScore": 100,
+            "detections": [],
+            "adminNotes": [],
+            "name": "SlowDuck5045",
+            "joinCount": 16,
+            "violations": [],
+            "bans": 0,
+            "totalPlaytime": 2400,
+            "kicks": 0,
+            "cleanTime": 0,
+            "trustLevel": "Regular",
+            "warnings": 0,
+            "lastSeen": 1769498105
+        },
+        "license:b6918bc6e2704b531bdffc8949e376f32b11c701": {
+            "reputationScore": 100,
+            "detections": [],
+            "adminNotes": [],
+            "name": "Alex Dyson",
+            "joinCount": 7,
+            "violations": [],
+            "bans": 0,
+            "totalPlaytime": 15720,
+            "kicks": 0,
+            "cleanTime": 0,
+            "trustLevel": "Trusted",
+            "warnings": 0,
+            "lastSeen": 1769970701
+        },
+        "license:0c974cfbefc11bbde7084cf0f5a127f750e0c888": {
+            "reputationScore": 100,
+            "detections": [],
+            "adminNotes": [],
+            "name": "Ezi Francesco",
+            "joinCount": 1,
+            "violations": [],
+            "bans": 0,
+            "totalPlaytime": 4140,
+            "kicks": 0,
+            "cleanTime": 0,
+            "trustLevel": "Normal",
+            "warnings": 0,
+            "lastSeen": 1769360796
+        },
+        "license:d7cc23b4cdcab3e2674af91f816e9208a7be9afa": {
+            "reputationScore": 61,
+            "detections": [
+                {
+                    "timestamp": 1769315703,
+                    "details": "Player is invincible",
+                    "type": "Godmode"
+                },
+                {
+                    "timestamp": 1769541810,
+                    "details": "Player is invincible",
+                    "type": "Godmode"
+                }
+            ],
+            "adminNotes": [],
+            "name": "witcher malli",
+            "joinCount": 20,
+            "violations": [
+                {
+                    "change": -25,
+                    "reason": "Godmode: Player is invincible",
+                    "newScore": 75,
+                    "timestamp": 1769315703
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 76,
+                    "timestamp": 1769353839
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 77,
+                    "timestamp": 1769357442
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 78,
+                    "timestamp": 1769361586
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 79,
+                    "timestamp": 1769365190
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 80,
+                    "timestamp": 1769434872
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 81,
+                    "timestamp": 1769438474
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 82,
+                    "timestamp": 1769445017
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 83,
+                    "timestamp": 1769448861
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 84,
+                    "timestamp": 1769520166
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 85,
+                    "timestamp": 1769529351
+                },
+                {
+                    "change": -25,
+                    "reason": "Godmode: Player is invincible",
+                    "newScore": 60,
+                    "timestamp": 1769541810
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 61,
+                    "timestamp": 1769876395
+                }
+            ],
+            "bans": 0,
+            "totalPlaytime": 48720,
+            "kicks": 0,
+            "cleanTime": 53,
+            "trustLevel": "Normal",
+            "warnings": 0,
+            "lastSeen": 1769879594
+        },
+        "license:0b79a1e9887602264eda5341df9e24c3b79e0993": {
+            "reputationScore": 80,
+            "detections": [
+                {
+                    "timestamp": 1769975298,
+                    "details": "Player is invincible",
+                    "type": "Godmode"
+                }
+            ],
+            "adminNotes": [],
+            "name": "RIZ_Grinx",
+            "joinCount": 28,
+            "violations": [
+                {
+                    "change": -25,
+                    "reason": "Godmode: Player is invincible",
+                    "newScore": 75,
+                    "timestamp": 1769975298
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 76,
+                    "timestamp": 1769979009
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 77,
+                    "timestamp": 1770019493
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 78,
+                    "timestamp": 1770023095
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 79,
+                    "timestamp": 1770044113
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 80,
+                    "timestamp": 1770048976
+                }
+            ],
+            "bans": 0,
+            "totalPlaytime": 47700,
+            "kicks": 0,
+            "cleanTime": 31,
+            "trustLevel": "Regular",
+            "warnings": 0,
+            "lastSeen": 1770050854
+        },
+        "license:27e20585e6dbba436b010188e2d3826172703e8b": {
+            "reputationScore": 100,
+            "detections": [],
+            "adminNotes": [],
+            "name": "Shelkan Carlos",
+            "joinCount": 2,
+            "violations": [],
+            "bans": 0,
+            "totalPlaytime": 240,
+            "kicks": 0,
+            "cleanTime": 0,
+            "trustLevel": "Normal",
+            "warnings": 0,
+            "lastSeen": 1769460150
+        },
+        "license:d4f1a4098c1907d2a49812d7f9eae040350ccf22": {
+            "reputationScore": 100,
+            "detections": [],
+            "adminNotes": [],
+            "name": "jhone samuel",
+            "joinCount": 8,
+            "violations": [],
+            "bans": 0,
+            "totalPlaytime": 12720,
+            "kicks": 0,
+            "cleanTime": 0,
+            "trustLevel": "Trusted",
+            "warnings": 0,
+            "lastSeen": 1769532370
+        },
+        "license:67c49d9c05e8906b257de8e594245ff784bb4865": {
+            "reputationScore": 100,
+            "detections": [],
+            "adminNotes": [],
+            "name": "STRAYIKA DAX",
+            "joinCount": 1,
+            "violations": [],
+            "bans": 0,
+            "totalPlaytime": 720,
+            "kicks": 0,
+            "cleanTime": 0,
+            "trustLevel": "Normal",
+            "warnings": 0,
+            "lastSeen": 1769367838
+        },
+        "license:dec6f651996fc3fef3416a3bb3491219951a7591": {
+            "reputationScore": 100,
+            "detections": [],
+            "adminNotes": [],
+            "name": "Mr podda",
+            "joinCount": 28,
+            "violations": [],
+            "bans": 0,
+            "totalPlaytime": 155460,
+            "kicks": 0,
+            "cleanTime": 0,
+            "trustLevel": "Trusted",
+            "warnings": 0,
+            "lastSeen": 1770033518
+        },
+        "license:c38a5b3d8e451fe1459c24647e9acc817be691a1": {
+            "reputationScore": 78,
+            "detections": [
+                {
+                    "timestamp": 1769449995,
+                    "details": "Player is invincible",
+                    "type": "Godmode"
+                }
+            ],
+            "adminNotes": [],
+            "name": "Drake Carlos",
+            "joinCount": 7,
+            "violations": [
+                {
+                    "change": -25,
+                    "reason": "Godmode: Player is invincible",
+                    "newScore": 75,
+                    "timestamp": 1769449995
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 76,
+                    "timestamp": 1769454631
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 77,
+                    "timestamp": 1769801023
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 78,
+                    "timestamp": 1769804626
+                }
+            ],
+            "bans": 0,
+            "totalPlaytime": 16680,
+            "kicks": 0,
+            "cleanTime": 50,
+            "trustLevel": "Normal",
+            "warnings": 0,
+            "lastSeen": 1769807662
+        },
+        "license:7e446c05f2c890319e64191ddafbb5ad736a7b9f": {
+            "reputationScore": 100,
+            "detections": [],
+            "adminNotes": [],
+            "name": "Achin Jayakody",
+            "joinCount": 3,
+            "violations": [],
+            "bans": 0,
+            "totalPlaytime": 3360,
+            "kicks": 0,
+            "cleanTime": 0,
+            "trustLevel": "Normal",
+            "warnings": 0,
+            "lastSeen": 1769943273
+        },
+        "license:88dca964e8637487384ea7d5af5576ddf1e5d671": {
+            "reputationScore": 88,
+            "detections": [
+                {
+                    "timestamp": 1769813225,
+                    "details": "Player is invincible",
+                    "type": "Godmode"
+                }
+            ],
+            "adminNotes": [],
+            "name": "Mr Rocky",
+            "joinCount": 17,
+            "violations": [
+                {
+                    "change": -25,
+                    "reason": "Godmode: Player is invincible",
+                    "newScore": 75,
+                    "timestamp": 1769813225
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 76,
+                    "timestamp": 1769856555
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 77,
+                    "timestamp": 1769860577
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 78,
+                    "timestamp": 1769864267
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 79,
+                    "timestamp": 1769885165
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 80,
+                    "timestamp": 1769889068
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 81,
+                    "timestamp": 1769892670
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 82,
+                    "timestamp": 1769896272
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 83,
+                    "timestamp": 1769949340
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 84,
+                    "timestamp": 1769952942
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 85,
+                    "timestamp": 1769956544
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 86,
+                    "timestamp": 1769969701
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 87,
+                    "timestamp": 1769973305
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 88,
+                    "timestamp": 1770051918
+                }
+            ],
+            "bans": 0,
+            "totalPlaytime": 56640,
+            "kicks": 0,
+            "cleanTime": 10,
+            "trustLevel": "Regular",
+            "warnings": 0,
+            "lastSeen": 1770052576
+        },
+        "license:9906e26db45ac2fc2e9805983675bca7dfae5a83": {
+            "reputationScore": 100,
+            "detections": [],
+            "adminNotes": [],
+            "name": "Nora Jade",
+            "joinCount": 3,
+            "violations": [],
+            "bans": 0,
+            "totalPlaytime": 3240,
+            "kicks": 0,
+            "cleanTime": 0,
+            "trustLevel": "Normal",
+            "warnings": 0,
+            "lastSeen": 1769361674
+        },
+        "license:7a9956f14502d6281c736930e9360e36dd6e8b18": {
+            "reputationScore": 100,
+            "detections": [],
+            "adminNotes": [],
+            "name": "Mahi De Silva",
+            "joinCount": 1,
+            "violations": [],
+            "bans": 0,
+            "totalPlaytime": 300,
+            "kicks": 0,
+            "cleanTime": 0,
+            "trustLevel": "Normal",
+            "warnings": 0,
+            "lastSeen": 1769429373
+        },
+        "license:dddf3d3cbc363398dc127ee2cd81e4e4f09dae46": {
+            "reputationScore": 100,
+            "detections": [],
+            "adminNotes": [],
+            "name": "Luna Snow",
+            "joinCount": 41,
+            "violations": [],
+            "bans": 0,
+            "totalPlaytime": 126120,
+            "kicks": 0,
+            "cleanTime": 0,
+            "trustLevel": "Trusted",
+            "warnings": 0,
+            "lastSeen": 1770050060
+        },
+        "license:5f847c480cfe9f02cd877fe1fcdbc16dd7f671c6": {
+            "reputationScore": 100,
+            "detections": [],
+            "adminNotes": [],
+            "name": "Kevin Floyd",
+            "joinCount": 24,
+            "violations": [],
+            "bans": 0,
+            "totalPlaytime": 76380,
+            "kicks": 0,
+            "cleanTime": 0,
+            "trustLevel": "Trusted",
+            "warnings": 0,
+            "lastSeen": 1770052591
+        },
+        "license:e3da7204e162305b00fa2fd916bbe8cf0626cbf8": {
+            "reputationScore": 81,
+            "detections": [
+                {
+                    "timestamp": 1768755789,
+                    "details": "Event: QBCore:Server:SetMetaData",
+                    "type": "Exploit"
+                }
+            ],
+            "adminNotes": [],
+            "name": "Mangala Sarameweera",
+            "joinCount": 4,
+            "violations": [
+                {
+                    "change": -20,
+                    "reason": "Exploit: Event: QBCore:Server:SetMetaData",
+                    "newScore": 80,
+                    "timestamp": 1768755789
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 81,
+                    "timestamp": 1768759756
+                }
+            ],
+            "bans": 0,
+            "totalPlaytime": 6180,
+            "kicks": 0,
+            "cleanTime": 29,
+            "trustLevel": "Normal",
+            "warnings": 0,
+            "lastSeen": 1769357292
+        },
+        "license:d96f85f24325a4c568189f886a1db727c698fa56": {
+            "reputationScore": 60,
+            "detections": [
+                {
+                    "timestamp": 1768734430,
+                    "details": "Event: QBCore:Server:SetMetaData",
+                    "type": "Exploit"
+                },
+                {
+                    "timestamp": 1768735242,
+                    "details": "Ammo: 24 -> 30",
+                    "type": "WeaponHack"
+                },
+                {
+                    "timestamp": 1768763667,
+                    "details": "Ammo: 22 -> 30",
+                    "type": "WeaponHack"
+                },
+                {
+                    "timestamp": 1769961554,
+                    "details": "Player is invincible",
+                    "type": "Godmode"
+                },
+                {
+                    "timestamp": 1769963924,
+                    "details": "Player is invincible",
+                    "type": "Godmode"
+                }
+            ],
+            "adminNotes": [],
+            "name": "camellia  Michele",
+            "joinCount": 111,
+            "violations": [
+                {
+                    "change": -20,
+                    "reason": "Exploit: Event: QBCore:Server:SetMetaData",
+                    "newScore": 80,
+                    "timestamp": 1768734430
+                },
+                {
+                    "change": -10,
+                    "reason": "WeaponHack: Ammo: 24 -> 30",
+                    "newScore": 70,
+                    "timestamp": 1768735242
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 71,
+                    "timestamp": 1768738681
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 72,
+                    "timestamp": 1768743003
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 73,
+                    "timestamp": 1768748046
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 74,
+                    "timestamp": 1768751889
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 75,
+                    "timestamp": 1768755666
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 76,
+                    "timestamp": 1768759276
+                },
+                {
+                    "change": -10,
+                    "reason": "WeaponHack: Ammo: 22 -> 30",
+                    "newScore": 66,
+                    "timestamp": 1768763667
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 67,
+                    "timestamp": 1768766112
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 68,
+                    "timestamp": 1768811017
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 69,
+                    "timestamp": 1769271550
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 70,
+                    "timestamp": 1769275178
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 71,
+                    "timestamp": 1769278780
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 72,
+                    "timestamp": 1769283524
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 73,
+                    "timestamp": 1769287126
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 74,
+                    "timestamp": 1769290728
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 75,
+                    "timestamp": 1769294330
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 76,
+                    "timestamp": 1769301176
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 77,
+                    "timestamp": 1769319185
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 78,
+                    "timestamp": 1769322786
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 79,
+                    "timestamp": 1769326717
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 80,
+                    "timestamp": 1769330436
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 81,
+                    "timestamp": 1769334038
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 82,
+                    "timestamp": 1769348436
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 83,
+                    "timestamp": 1769352158
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 84,
+                    "timestamp": 1769355760
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 85,
+                    "timestamp": 1769359424
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 86,
+                    "timestamp": 1769363148
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 87,
+                    "timestamp": 1769366752
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 88,
+                    "timestamp": 1769370354
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 89,
+                    "timestamp": 1769374196
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 90,
+                    "timestamp": 1769378770
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 91,
+                    "timestamp": 1769382372
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 92,
+                    "timestamp": 1769423556
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 93,
+                    "timestamp": 1769427158
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 94,
+                    "timestamp": 1769430910
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 95,
+                    "timestamp": 1769434512
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 96,
+                    "timestamp": 1769438114
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 97,
+                    "timestamp": 1769441715
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 98,
+                    "timestamp": 1769453248
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 99,
+                    "timestamp": 1769456854
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 100,
+                    "timestamp": 1769461589
+                },
+                {
+                    "change": -25,
+                    "reason": "Godmode: Player is invincible",
+                    "newScore": 75,
+                    "timestamp": 1769961554
+                },
+                {
+                    "change": -25,
+                    "reason": "Godmode: Player is invincible",
+                    "newScore": 50,
+                    "timestamp": 1769963924
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 51,
+                    "timestamp": 1769966038
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 52,
+                    "timestamp": 1769969641
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 53,
+                    "timestamp": 1769973365
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 54,
+                    "timestamp": 1769976967
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 55,
+                    "timestamp": 1769980690
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 56,
+                    "timestamp": 1769984291
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 57,
+                    "timestamp": 1770021414
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 58,
+                    "timestamp": 1770037630
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 59,
+                    "timestamp": 1770049937
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 60,
+                    "timestamp": 1770060712
+                }
+            ],
+            "bans": 0,
+            "totalPlaytime": 404340,
+            "kicks": 0,
+            "cleanTime": 55,
+            "trustLevel": "Normal",
+            "warnings": 0,
+            "lastSeen": 1770064667
+        },
+        "license:0c4f0a5be4a1e8df188373a4293594fc2875f2e1": {
+            "reputationScore": 100,
+            "detections": [
+                {
+                    "timestamp": 1768736141,
+                    "details": "Event: QBCore:Server:SetMetaData",
+                    "type": "Exploit"
+                }
+            ],
+            "adminNotes": [],
+            "name": "Venny Shahrukh",
+            "joinCount": 69,
+            "violations": [
+                {
+                    "change": -20,
+                    "reason": "Exploit: Event: QBCore:Server:SetMetaData",
+                    "newScore": 80,
+                    "timestamp": 1768736141
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 81,
+                    "timestamp": 1768740302
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 82,
+                    "timestamp": 1768744024
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 83,
+                    "timestamp": 1768747626
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 84,
+                    "timestamp": 1768751228
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 85,
+                    "timestamp": 1768754890
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 86,
+                    "timestamp": 1768800326
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 87,
+                    "timestamp": 1768803950
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 88,
+                    "timestamp": 1768807655
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 89,
+                    "timestamp": 1769269689
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 90,
+                    "timestamp": 1769273471
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 91,
+                    "timestamp": 1769277159
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 92,
+                    "timestamp": 1769280822
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 93,
+                    "timestamp": 1769284605
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 94,
+                    "timestamp": 1769288207
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 95,
+                    "timestamp": 1769330196
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 96,
+                    "timestamp": 1769352818
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 97,
+                    "timestamp": 1769356421
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 98,
+                    "timestamp": 1769360025
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 99,
+                    "timestamp": 1769366332
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 100,
+                    "timestamp": 1769405032
+                }
+            ],
+            "bans": 0,
+            "totalPlaytime": 249240,
+            "kicks": 0,
+            "cleanTime": 0,
+            "trustLevel": "Trusted",
+            "warnings": 0,
+            "lastSeen": 1770052545
+        },
+        "license:ee1552c4e0ae2f2ee1ace6e6f577a4a152048f77": {
+            "reputationScore": 100,
+            "detections": [],
+            "adminNotes": [],
+            "name": "ROCKY RODRIGO",
+            "joinCount": 10,
+            "violations": [],
+            "bans": 0,
+            "totalPlaytime": 60060,
+            "kicks": 0,
+            "cleanTime": 0,
+            "trustLevel": "Trusted",
+            "warnings": 0,
+            "lastSeen": 1769898794
+        },
+        "license:b813fe7214abd629c3870b975dc0f5ad2553609e": {
+            "reputationScore": 100,
+            "detections": [],
+            "adminNotes": [],
+            "name": "Kb Demel",
+            "joinCount": 1,
+            "violations": [],
+            "bans": 0,
+            "totalPlaytime": 480,
+            "kicks": 0,
+            "cleanTime": 0,
+            "trustLevel": "Normal",
+            "warnings": 0,
+            "lastSeen": 1769427384
+        },
+        "license:9921bddc15296f049055b4271f9a92c639f46b0e": {
+            "reputationScore": 100,
+            "detections": [],
+            "adminNotes": [],
+            "name": "Logan Levis",
+            "joinCount": 9,
+            "violations": [],
+            "bans": 0,
+            "totalPlaytime": 24780,
+            "kicks": 0,
+            "cleanTime": 0,
+            "trustLevel": "Trusted",
+            "warnings": 0,
+            "lastSeen": 1769530611
+        },
+        "license:4a8a99f614cc37863eec7351f2d2989915dea992": {
+            "reputationScore": 100,
+            "detections": [],
+            "adminNotes": [],
+            "name": "Franco Carlos",
+            "joinCount": 7,
+            "violations": [],
+            "bans": 0,
+            "totalPlaytime": 11520,
+            "kicks": 0,
+            "cleanTime": 0,
+            "trustLevel": "Trusted",
+            "warnings": 0,
+            "lastSeen": 1770056067
+        },
+        "license:5d3aded6e136c18d2565a6b9050b8dd4c70e9b6e": {
+            "reputationScore": 71,
+            "detections": [
+                {
+                    "timestamp": 1768734392,
+                    "details": "Event: QBCore:Server:SetMetaData",
+                    "type": "Exploit"
+                },
+                {
+                    "timestamp": 1768734711,
+                    "details": "Event: QBCore:Server:SetMetaData",
+                    "type": "Exploit"
+                }
+            ],
+            "adminNotes": [],
+            "name": "JHON BLACKWATER",
+            "joinCount": 18,
+            "violations": [
+                {
+                    "change": -20,
+                    "reason": "Exploit: Event: QBCore:Server:SetMetaData",
+                    "newScore": 80,
+                    "timestamp": 1768734392
+                },
+                {
+                    "change": -20,
+                    "reason": "Exploit: Event: QBCore:Server:SetMetaData",
+                    "newScore": 60,
+                    "timestamp": 1768734711
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 61,
+                    "timestamp": 1768738321
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 62,
+                    "timestamp": 1768751949
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 63,
+                    "timestamp": 1768795404
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 64,
+                    "timestamp": 1768799006
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 65,
+                    "timestamp": 1768807475
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 66,
+                    "timestamp": 1769354139
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 67,
+                    "timestamp": 1769357862
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 68,
+                    "timestamp": 1769439314
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 69,
+                    "timestamp": 1769442916
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 70,
+                    "timestamp": 1769446518
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 71,
+                    "timestamp": 1769783671
+                }
+            ],
+            "bans": 0,
+            "totalPlaytime": 42960,
+            "kicks": 0,
+            "cleanTime": 41,
+            "trustLevel": "Normal",
+            "warnings": 0,
+            "lastSeen": 1770040607
+        },
+        "license:4b13e1c4a2c8fa41b8facbb4c19ea9d9b7f883f9": {
+            "reputationScore": 100,
+            "detections": [],
+            "adminNotes": [],
+            "name": "Kevin Davis",
+            "joinCount": 3,
+            "violations": [],
+            "bans": 0,
+            "totalPlaytime": 13500,
+            "kicks": 0,
+            "cleanTime": 0,
+            "trustLevel": "Trusted",
+            "warnings": 0,
+            "lastSeen": 1768759772
+        },
+        "license:2269ecb4b5f3d45ec6339d989b4db1bf261d0dd7": {
+            "reputationScore": 100,
+            "detections": [],
+            "adminNotes": [],
+            "name": "Sisi Antonella",
+            "joinCount": 64,
+            "violations": [],
+            "bans": 0,
+            "totalPlaytime": 97440,
+            "kicks": 0,
+            "cleanTime": 0,
+            "trustLevel": "Trusted",
+            "warnings": 0,
+            "lastSeen": 1770050681
+        },
+        "license:426991012d60c4cf37432377a6cf5f652df1c0ec": {
+            "reputationScore": 100,
+            "detections": [],
+            "adminNotes": [],
+            "name": "Surya Krishna",
+            "joinCount": 18,
+            "violations": [],
+            "bans": 0,
+            "totalPlaytime": 71400,
+            "kicks": 0,
+            "cleanTime": 0,
+            "trustLevel": "Trusted",
+            "warnings": 0,
+            "lastSeen": 1769888195
+        },
+        "license:eebb0ad299de39122a671eeb503c2d736cb5515e": {
+            "reputationScore": 100,
+            "detections": [],
+            "adminNotes": [],
+            "name": "Ruchi Marlen",
+            "joinCount": 3,
+            "violations": [],
+            "bans": 0,
+            "totalPlaytime": 3480,
+            "kicks": 0,
+            "cleanTime": 0,
+            "trustLevel": "Normal",
+            "warnings": 0,
+            "lastSeen": 1769359740
+        },
+        "license:cc849cd13d0f7a0c60157c9c4c25b9c6663f3413": {
+            "reputationScore": 100,
+            "detections": [],
+            "adminNotes": [],
+            "name": "Simon Riley",
+            "joinCount": 4,
+            "violations": [],
+            "bans": 0,
+            "totalPlaytime": 14880,
+            "kicks": 0,
+            "cleanTime": 0,
+            "trustLevel": "Trusted",
+            "warnings": 0,
+            "lastSeen": 1769288827
+        },
+        "license:64012bd853a95e15ebde4c623635cecfd07d794d": {
+            "reputationScore": 100,
+            "detections": [],
+            "adminNotes": [],
+            "name": "John Cane",
+            "joinCount": 3,
+            "violations": [],
+            "bans": 0,
+            "totalPlaytime": 15780,
+            "kicks": 0,
+            "cleanTime": 0,
+            "trustLevel": "Trusted",
+            "warnings": 0,
+            "lastSeen": 1768759772
+        },
+        "license:d2542bd3da1f3cbff678fb1a3c9bacbdae7c56b2": {
+            "reputationScore": 79,
+            "detections": [
+                {
+                    "timestamp": 1769893104,
+                    "details": "Player is invincible",
+                    "type": "Godmode"
+                }
+            ],
+            "adminNotes": [],
+            "name": "Leo Tarco",
+            "joinCount": 18,
+            "violations": [
+                {
+                    "change": -25,
+                    "reason": "Godmode: Player is invincible",
+                    "newScore": 75,
+                    "timestamp": 1769893104
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 76,
+                    "timestamp": 1769898733
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 77,
+                    "timestamp": 1769938818
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 78,
+                    "timestamp": 1769978769
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 79,
+                    "timestamp": 1770069716
+                }
+            ],
+            "bans": 0,
+            "totalPlaytime": 36360,
+            "kicks": 0,
+            "cleanTime": 17,
+            "trustLevel": "Regular",
+            "warnings": 0,
+            "lastSeen": 1770070761
+        },
+        "license:093bd862033b0849062edcf25acb203ed29cca53": {
+            "reputationScore": 100,
+            "detections": [],
+            "adminNotes": [],
+            "name": "Randy Greek",
+            "joinCount": 5,
+            "violations": [],
+            "bans": 0,
+            "totalPlaytime": 2160,
+            "kicks": 0,
+            "cleanTime": 0,
+            "trustLevel": "Normal",
+            "warnings": 0,
+            "lastSeen": 1769934019
+        },
+        "license:8feefb4bd2129db6f9daaa8e5b4ae12696cc9711": {
+            "reputationScore": 100,
+            "detections": [
+                {
+                    "timestamp": 1768738802,
+                    "details": "Jump height: 8.78m",
+                    "type": "Movement"
+                }
+            ],
+            "adminNotes": [],
+            "name": "Jhonny Boy",
+            "joinCount": 13,
+            "violations": [
+                {
+                    "change": -10,
+                    "reason": "Movement: Jump height: 8.78m",
+                    "newScore": 90,
+                    "timestamp": 1768738802
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 91,
+                    "timestamp": 1768743303
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 92,
+                    "timestamp": 1768746906
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 93,
+                    "timestamp": 1768750508
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 94,
+                    "timestamp": 1768754110
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 95,
+                    "timestamp": 1768757775
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 96,
+                    "timestamp": 1769344654
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 97,
+                    "timestamp": 1769348256
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 98,
+                    "timestamp": 1769351858
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 99,
+                    "timestamp": 1769355460
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 100,
+                    "timestamp": 1769359064
+                }
+            ],
+            "bans": 0,
+            "totalPlaytime": 77340,
+            "kicks": 0,
+            "cleanTime": 0,
+            "trustLevel": "Trusted",
+            "warnings": 0,
+            "lastSeen": 1770079816
+        },
+        "license:a0c8af94a90cbee9f0ed2aa22f9af39b1a81388b": {
+            "reputationScore": 100,
+            "detections": [],
+            "adminNotes": [],
+            "name": "Yumi Rodrigo",
+            "joinCount": 4,
+            "violations": [],
+            "bans": 0,
+            "totalPlaytime": 25020,
+            "kicks": 0,
+            "cleanTime": 0,
+            "trustLevel": "Trusted",
+            "warnings": 0,
+            "lastSeen": 1769376780
+        },
+        "license:4a88f0e8df98ec52d98eb8f8580ccbf3aa011979": {
+            "reputationScore": 100,
+            "detections": [],
+            "adminNotes": [],
+            "name": "Creed Jen",
+            "joinCount": 18,
+            "violations": [],
+            "bans": 0,
+            "totalPlaytime": 38280,
+            "kicks": 0,
+            "cleanTime": 0,
+            "trustLevel": "Trusted",
+            "warnings": 0,
+            "lastSeen": 1769880970
+        },
+        "license:695c861522d767c2b3779c9d2679a5f27b977b6b": {
+            "reputationScore": 100,
+            "detections": [],
+            "adminNotes": [],
+            "name": "Rish Addam",
+            "joinCount": 37,
+            "violations": [],
+            "bans": 0,
+            "totalPlaytime": 92340,
+            "kicks": 0,
+            "cleanTime": 0,
+            "trustLevel": "Trusted",
+            "warnings": 0,
+            "lastSeen": 1769888256
+        },
+        "license:e1ce5ea50b9dec14e1d44d6206caa27a8f6e852e": {
+            "reputationScore": 100,
+            "detections": [],
+            "adminNotes": [],
+            "name": "Diablo Vortex",
+            "joinCount": 43,
+            "violations": [],
+            "bans": 0,
+            "totalPlaytime": 142800,
+            "kicks": 0,
+            "cleanTime": 0,
+            "trustLevel": "Trusted",
+            "warnings": 0,
+            "lastSeen": 1770048533
+        },
+        "license:aaca1f224cd2ed3ad02fb09cca6335141618ad2e": {
+            "reputationScore": 100,
+            "detections": [],
+            "adminNotes": [],
+            "name": "Axel !",
+            "joinCount": 2,
+            "violations": [],
+            "bans": 0,
+            "totalPlaytime": 600,
+            "kicks": 0,
+            "cleanTime": 0,
+            "trustLevel": "Normal",
+            "warnings": 0,
+            "lastSeen": 1769429352
+        },
+        "license:4c103dfb6b8ffa0add7c80bcc0f97aa2d7a9f0ce": {
+            "reputationScore": 100,
+            "detections": [],
+            "adminNotes": [],
+            "name": "amy flora",
+            "joinCount": 20,
+            "violations": [],
+            "bans": 0,
+            "totalPlaytime": 96360,
+            "kicks": 0,
+            "cleanTime": 0,
+            "trustLevel": "Trusted",
+            "warnings": 0,
+            "lastSeen": 1769895852
+        },
+        "license:5017bd4f2506d5918c638b31135a7c85b95b05ef": {
+            "reputationScore": 84,
+            "detections": [
+                {
+                    "timestamp": 1769542016,
+                    "details": "Player is invincible",
+                    "type": "Godmode"
+                },
+                {
+                    "timestamp": 1769891111,
+                    "details": "Player is invincible",
+                    "type": "Godmode"
+                }
+            ],
+            "adminNotes": [],
+            "name": "Tyler Morgan",
+            "joinCount": 60,
+            "violations": [
+                {
+                    "change": -25,
+                    "reason": "Godmode: Player is invincible",
+                    "newScore": 75,
+                    "timestamp": 1769542016
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 76,
+                    "timestamp": 1769604764
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 77,
+                    "timestamp": 1769613709
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 78,
+                    "timestamp": 1769617371
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 79,
+                    "timestamp": 1769621033
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 80,
+                    "timestamp": 1769624635
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 81,
+                    "timestamp": 1769628237
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 82,
+                    "timestamp": 1769631839
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 83,
+                    "timestamp": 1769696852
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 84,
+                    "timestamp": 1769790155
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 85,
+                    "timestamp": 1769793757
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 86,
+                    "timestamp": 1769797360
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 87,
+                    "timestamp": 1769800963
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 88,
+                    "timestamp": 1769804565
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 89,
+                    "timestamp": 1769850372
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 90,
+                    "timestamp": 1769874293
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 91,
+                    "timestamp": 1769877957
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 92,
+                    "timestamp": 1769881561
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 93,
+                    "timestamp": 1769885285
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 94,
+                    "timestamp": 1769889188
+                },
+                {
+                    "change": -25,
+                    "reason": "Godmode: Player is invincible",
+                    "newScore": 69,
+                    "timestamp": 1769891111
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 70,
+                    "timestamp": 1769892910
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 71,
+                    "timestamp": 1769896512
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 72,
+                    "timestamp": 1769929273
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 73,
+                    "timestamp": 1769932875
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 74,
+                    "timestamp": 1769939058
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 75,
+                    "timestamp": 1769946502
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 76,
+                    "timestamp": 1769954863
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 77,
+                    "timestamp": 1769962819
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 78,
+                    "timestamp": 1769966519
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 79,
+                    "timestamp": 1769970122
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 80,
+                    "timestamp": 1769973725
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 81,
+                    "timestamp": 1769977328
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 82,
+                    "timestamp": 1770028258
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 83,
+                    "timestamp": 1770040992
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 84,
+                    "timestamp": 1770046635
+                }
+            ],
+            "bans": 0,
+            "totalPlaytime": 166200,
+            "kicks": 0,
+            "cleanTime": 58,
+            "trustLevel": "Regular",
+            "warnings": 0,
+            "lastSeen": 1770050300
+        },
+        "license:b649904f16757fd901a98967a439e6d2fa6463d6": {
+            "reputationScore": 36,
+            "detections": [
+                {
+                    "timestamp": 1769542419,
+                    "details": "Player is invincible",
+                    "type": "Godmode"
+                },
+                {
+                    "timestamp": 1769542625,
+                    "details": "Player is invincible",
+                    "type": "Godmode"
+                },
+                {
+                    "timestamp": 1769543002,
+                    "details": "Player is invincible",
+                    "type": "Godmode"
+                }
+            ],
+            "adminNotes": [],
+            "name": "Don Alwis",
+            "joinCount": 22,
+            "violations": [
+                {
+                    "change": -25,
+                    "reason": "Godmode: Player is invincible",
+                    "newScore": 75,
+                    "timestamp": 1769542419
+                },
+                {
+                    "change": -25,
+                    "reason": "Godmode: Player is invincible",
+                    "newScore": 50,
+                    "timestamp": 1769542625
+                },
+                {
+                    "change": -25,
+                    "reason": "Godmode: Player is invincible",
+                    "newScore": 25,
+                    "timestamp": 1769543002
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 26,
+                    "timestamp": 1769546278
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 27,
+                    "timestamp": 1769622714
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 28,
+                    "timestamp": 1769626316
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 29,
+                    "timestamp": 1769630038
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 30,
+                    "timestamp": 1769633640
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 31,
+                    "timestamp": 1769794598
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 32,
+                    "timestamp": 1769798261
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 33,
+                    "timestamp": 1769801984
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 34,
+                    "timestamp": 1769805586
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 35,
+                    "timestamp": 1769881982
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 36,
+                    "timestamp": 1769885706
+                }
+            ],
+            "bans": 0,
+            "totalPlaytime": 93540,
+            "kicks": 0,
+            "cleanTime": 28,
+            "trustLevel": "Suspicious",
+            "warnings": 0,
+            "lastSeen": 1769887439
+        },
+        "license:f23b6d6bd4e6a6cf28fe91a27ed4939f9ac9a512": {
+            "reputationScore": 100,
+            "detections": [],
+            "adminNotes": [],
+            "name": "PUSHPE PenDraGoN",
+            "joinCount": 2,
+            "violations": [],
+            "bans": 0,
+            "totalPlaytime": 1740,
+            "kicks": 0,
+            "cleanTime": 0,
+            "trustLevel": "Normal",
+            "warnings": 0,
+            "lastSeen": 1769799487
+        },
+        "license:13ffb55d3d375599979ca9ed15f525ef1a8ec1e3": {
+            "reputationScore": 37,
+            "detections": [
+                {
+                    "timestamp": 1768743386,
+                    "details": "Event: QBCore:Server:SetMetaData",
+                    "type": "Exploit"
+                },
+                {
+                    "timestamp": 1769360810,
+                    "details": "Player is invincible",
+                    "type": "Godmode"
+                },
+                {
+                    "timestamp": 1769956619,
+                    "details": "Player is invincible",
+                    "type": "Godmode"
+                },
+                {
+                    "details": "Player is invincible",
+                    "timestamp": 1770046528,
+                    "type": "Godmode"
+                },
+                {
+                    "details": "Jump height: 18.52m",
+                    "timestamp": 1770052520,
+                    "type": "Movement"
+                }
+            ],
+            "adminNotes": [],
+            "name": "tom kyzer",
+            "joinCount": 41,
+            "violations": [
+                {
+                    "change": -20,
+                    "reason": "Exploit: Event: QBCore:Server:SetMetaData",
+                    "newScore": 80,
+                    "timestamp": 1768743386
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 81,
+                    "timestamp": 1768751288
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 82,
+                    "timestamp": 1768754890
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 83,
+                    "timestamp": 1769269869
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 84,
+                    "timestamp": 1769273471
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 85,
+                    "timestamp": 1769277099
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 86,
+                    "timestamp": 1769280701
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 87,
+                    "timestamp": 1769284304
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 88,
+                    "timestamp": 1769287966
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 89,
+                    "timestamp": 1769353358
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 90,
+                    "timestamp": 1769357022
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 91,
+                    "timestamp": 1769360625
+                },
+                {
+                    "change": -25,
+                    "reason": "Godmode: Player is invincible",
+                    "newScore": 66,
+                    "timestamp": 1769360810
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 67,
+                    "timestamp": 1769437333
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 68,
+                    "timestamp": 1769441055
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 69,
+                    "timestamp": 1769444777
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 70,
+                    "timestamp": 1769526349
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 71,
+                    "timestamp": 1769530011
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 72,
+                    "timestamp": 1769534272
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 73,
+                    "timestamp": 1769607045
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 74,
+                    "timestamp": 1769610647
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 75,
+                    "timestamp": 1769614429
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 76,
+                    "timestamp": 1769619112
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 77,
+                    "timestamp": 1769696792
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 78,
+                    "timestamp": 1769781870
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 79,
+                    "timestamp": 1769785472
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 80,
+                    "timestamp": 1769789074
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 81,
+                    "timestamp": 1769867209
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 82,
+                    "timestamp": 1769871952
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 83,
+                    "timestamp": 1769875554
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 84,
+                    "timestamp": 1769879159
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 85,
+                    "timestamp": 1769882762
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 86,
+                    "timestamp": 1769886367
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 87,
+                    "timestamp": 1769923990
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 88,
+                    "timestamp": 1769927712
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 89,
+                    "timestamp": 1769932094
+                },
+                {
+                    "change": -25,
+                    "reason": "Godmode: Player is invincible",
+                    "newScore": 64,
+                    "timestamp": 1769956619
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 65,
+                    "timestamp": 1769958856
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 66,
+                    "timestamp": 1769962458
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 67,
+                    "timestamp": 1769966098
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 68,
+                    "timestamp": 1769969701
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 69,
+                    "timestamp": 1769973305
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 70,
+                    "timestamp": 1770042613
+                },
+                {
+                    "change": -25,
+                    "reason": "Godmode: Player is invincible",
+                    "newScore": 45,
+                    "timestamp": 1770046528
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 46,
+                    "timestamp": 1770047715
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 47,
+                    "timestamp": 1770051317
+                },
+                {
+                    "change": -10,
+                    "reason": "Movement: Jump height: 18.52m",
+                    "newScore": 37,
+                    "timestamp": 1770052520
+                }
+            ],
+            "bans": 0,
+            "totalPlaytime": 152640,
+            "kicks": 0,
+            "cleanTime": 20,
+            "trustLevel": "Suspicious",
+            "warnings": 0,
+            "lastSeen": 1770052520
+        },
+        "license:ce479ffbeb20b11311e9bc8001063d3055332089": {
+            "reputationScore": 100,
+            "detections": [],
+            "adminNotes": [],
+            "name": "Randy Greek",
+            "joinCount": 9,
+            "violations": [],
+            "bans": 0,
+            "totalPlaytime": 33240,
+            "kicks": 0,
+            "cleanTime": 0,
+            "trustLevel": "Trusted",
+            "warnings": 0,
+            "lastSeen": 1769537760
+        },
+        "license:82e0117d3066e376643e422415322a106762a71d": {
+            "reputationScore": 100,
+            "warnings": 0,
+            "adminNotes": [],
+            "name": "Rebecca Bowman",
+            "detections": [],
+            "violations": [],
+            "bans": 0,
+            "totalPlaytime": 9900,
+            "kicks": 0,
+            "cleanTime": 0,
+            "trustLevel": "Trusted",
+            "joinCount": 2,
+            "lastSeen": 1770049812
+        },
+        "license:e7c97ac9dd3cc477a1a4e918039957994db3af91": {
+            "reputationScore": 100,
+            "detections": [],
+            "adminNotes": [],
+            "name": "Jason Frenandoz",
+            "joinCount": 1,
+            "violations": [],
+            "bans": 0,
+            "totalPlaytime": 360,
+            "kicks": 0,
+            "cleanTime": 0,
+            "trustLevel": "Normal",
+            "warnings": 0,
+            "lastSeen": 1769965065
+        },
+        "license:53dc8be1ebfa01411122721014b9166eddcd618b": {
+            "reputationScore": 100,
+            "detections": [],
+            "adminNotes": [],
+            "name": "dam wolf",
+            "joinCount": 4,
+            "violations": [],
+            "bans": 0,
+            "totalPlaytime": 11400,
+            "kicks": 0,
+            "cleanTime": 0,
+            "trustLevel": "Trusted",
+            "warnings": 0,
+            "lastSeen": 1769691590
+        },
+        "license:e98a92d2e1422e172da5282b32d30b2766006d72": {
+            "reputationScore": 100,
+            "detections": [],
+            "adminNotes": [],
+            "name": "Tix Induwara",
+            "joinCount": 16,
+            "violations": [],
+            "bans": 0,
+            "totalPlaytime": 76260,
+            "kicks": 0,
+            "cleanTime": 0,
+            "trustLevel": "Trusted",
+            "warnings": 0,
+            "lastSeen": 1769973905
+        },
+        "license:0bf3e2f486c90e9db7a703d4558befd56c9e07e4": {
+            "reputationScore": 100,
+            "detections": [],
+            "adminNotes": [],
+            "name": "Daniel Rathnayaka",
+            "joinCount": 5,
+            "violations": [],
+            "bans": 0,
+            "totalPlaytime": 21600,
+            "kicks": 0,
+            "cleanTime": 0,
+            "trustLevel": "Trusted",
+            "warnings": 0,
+            "lastSeen": 1769846666
+        },
+        "license:cda2c0416af2d623a8b35601e0963845158ef7c3": {
+            "reputationScore": 94,
+            "detections": [
+                {
+                    "timestamp": 1768753361,
+                    "details": "Event: QBCore:Server:SetMetaData",
+                    "type": "Exploit"
+                }
+            ],
+            "adminNotes": [],
+            "name": "Jemes Lucus",
+            "joinCount": 9,
+            "violations": [
+                {
+                    "change": -20,
+                    "reason": "Exploit: Event: QBCore:Server:SetMetaData",
+                    "newScore": 80,
+                    "timestamp": 1768753361
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 81,
+                    "timestamp": 1768757047
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 82,
+                    "timestamp": 1769358463
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 83,
+                    "timestamp": 1769362067
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 84,
+                    "timestamp": 1769365671
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 85,
+                    "timestamp": 1769369273
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 86,
+                    "timestamp": 1769438294
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 87,
+                    "timestamp": 1769441896
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 88,
+                    "timestamp": 1769445497
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 89,
+                    "timestamp": 1769449102
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 90,
+                    "timestamp": 1769704907
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 91,
+                    "timestamp": 1769874233
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 92,
+                    "timestamp": 1769877837
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 93,
+                    "timestamp": 1769881441
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 94,
+                    "timestamp": 1769885045
+                }
+            ],
+            "bans": 0,
+            "totalPlaytime": 54720,
+            "kicks": 0,
+            "cleanTime": 39,
+            "trustLevel": "Trusted",
+            "warnings": 0,
+            "lastSeen": 1769887439
+        },
+        "license:c946ae136e383b8a5e49ce81639bf1a333aa4f5a": {
+            "reputationScore": 100,
+            "detections": [],
+            "adminNotes": [],
+            "name": "Russell Kane",
+            "joinCount": 4,
+            "violations": [],
+            "bans": 0,
+            "totalPlaytime": 1020,
+            "kicks": 0,
+            "cleanTime": 0,
+            "trustLevel": "Normal",
+            "warnings": 0,
+            "lastSeen": 1769284493
+        },
+        "license:1db2f98a01863d29d47e98d99952b72d45b3ec4c": {
+            "reputationScore": 100,
+            "detections": [],
+            "adminNotes": [],
+            "name": "BOB SAP",
+            "joinCount": 1,
+            "violations": [],
+            "bans": 0,
+            "totalPlaytime": 3120,
+            "kicks": 0,
+            "cleanTime": 0,
+            "trustLevel": "Normal",
+            "warnings": 0,
+            "lastSeen": 1769376584
+        },
+        "license:5b7e9a5c63ec076c0a1545aa2d7bc0df6ddfda06": {
+            "reputationScore": 98,
+            "detections": [
+                {
+                    "timestamp": 1768750345,
+                    "details": "Ammo: 24 -> 30",
+                    "type": "WeaponHack"
+                },
+                {
+                    "timestamp": 1768784231,
+                    "details": "Type: 30",
+                    "type": "Explosion"
+                }
+            ],
+            "adminNotes": [],
+            "name": "LinThune KuduHajji",
+            "joinCount": 44,
+            "violations": [
+                {
+                    "change": -10,
+                    "reason": "WeaponHack: Ammo: 24 -> 30",
+                    "newScore": 90,
+                    "timestamp": 1768750345
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 91,
+                    "timestamp": 1768755426
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 92,
+                    "timestamp": 1768784179
+                },
+                {
+                    "change": -10,
+                    "reason": "Explosion: Type: 30",
+                    "newScore": 82,
+                    "timestamp": 1768784231
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 83,
+                    "timestamp": 1769278900
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 84,
+                    "timestamp": 1769330316
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 85,
+                    "timestamp": 1769364770
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 86,
+                    "timestamp": 1769431931
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 87,
+                    "timestamp": 1769450123
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 88,
+                    "timestamp": 1769503848
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 89,
+                    "timestamp": 1769652524
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 90,
+                    "timestamp": 1769800483
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 91,
+                    "timestamp": 1769804265
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 92,
+                    "timestamp": 1769807867
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 93,
+                    "timestamp": 1769864808
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 94,
+                    "timestamp": 1769868530
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 95,
+                    "timestamp": 1769885645
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 96,
+                    "timestamp": 1769935456
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 97,
+                    "timestamp": 1770045854
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 98,
+                    "timestamp": 1770049456
+                }
+            ],
+            "bans": 0,
+            "totalPlaytime": 72660,
+            "kicks": 0,
+            "cleanTime": 11,
+            "trustLevel": "Trusted",
+            "warnings": 0,
+            "lastSeen": 1770050125
+        },
+        "license:840dee584ba2b16664ada65f7a442dd311683851": {
+            "reputationScore": 100,
+            "detections": [],
+            "adminNotes": [],
+            "name": "Tony Jay",
+            "joinCount": 33,
+            "violations": [],
+            "bans": 0,
+            "totalPlaytime": 148080,
+            "kicks": 0,
+            "cleanTime": 0,
+            "trustLevel": "Trusted",
+            "warnings": 0,
+            "lastSeen": 1769976251
+        },
+        "license:f37f45bc0dc607290223f8b370650bf7be2ada52": {
+            "reputationScore": 100,
+            "detections": [],
+            "adminNotes": [],
+            "name": "Anderson Mark",
+            "joinCount": 1,
+            "violations": [],
+            "bans": 0,
+            "totalPlaytime": 420,
+            "kicks": 0,
+            "cleanTime": 0,
+            "trustLevel": "Normal",
+            "warnings": 0,
+            "lastSeen": 1769446650
+        },
+        "license:d114e6f745f05a098477c90d64759192e9286a2d": {
+            "reputationScore": 100,
+            "detections": [],
+            "adminNotes": [],
+            "name": "Nadeesh Fdo",
+            "joinCount": 1,
+            "violations": [],
+            "bans": 0,
+            "totalPlaytime": 120,
+            "kicks": 0,
+            "cleanTime": 0,
+            "trustLevel": "Normal",
+            "warnings": 0,
+            "lastSeen": 1769811287
+        },
+        "license:6c9c6e515e2973d9d789457a9f32ea2295d1c948": {
+            "reputationScore": 100,
+            "detections": [],
+            "adminNotes": [],
+            "name": "Leon Kennedy",
+            "joinCount": 5,
+            "violations": [],
+            "bans": 0,
+            "totalPlaytime": 21600,
+            "kicks": 0,
+            "cleanTime": 0,
+            "trustLevel": "Trusted",
+            "warnings": 0,
+            "lastSeen": 1769798709
+        },
+        "license:93ee113e8adcc6574919b469f4d229be7242faae": {
+            "reputationScore": 82,
+            "detections": [
+                {
+                    "timestamp": 1769367940,
+                    "details": "Player is invincible",
+                    "type": "Godmode"
+                },
+                {
+                    "timestamp": 1769866921,
+                    "details": "Player is invincible",
+                    "type": "Godmode"
+                }
+            ],
+            "adminNotes": [],
+            "name": "Rylee Skye",
+            "joinCount": 38,
+            "violations": [
+                {
+                    "change": -25,
+                    "reason": "Godmode: Player is invincible",
+                    "newScore": 75,
+                    "timestamp": 1769367940
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 76,
+                    "timestamp": 1769371855
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 77,
+                    "timestamp": 1769375456
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 78,
+                    "timestamp": 1769418094
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 79,
+                    "timestamp": 1769445737
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 80,
+                    "timestamp": 1769449342
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 81,
+                    "timestamp": 1769453067
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 82,
+                    "timestamp": 1769456674
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 83,
+                    "timestamp": 1769606445
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 84,
+                    "timestamp": 1769621754
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 85,
+                    "timestamp": 1769625356
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 86,
+                    "timestamp": 1769771125
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 87,
+                    "timestamp": 1769803304
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 88,
+                    "timestamp": 1769807147
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 89,
+                    "timestamp": 1769810869
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 90,
+                    "timestamp": 1769814651
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 91,
+                    "timestamp": 1769862827
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 92,
+                    "timestamp": 1769866429
+                },
+                {
+                    "change": -25,
+                    "reason": "Godmode: Player is invincible",
+                    "newScore": 67,
+                    "timestamp": 1769866921
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 68,
+                    "timestamp": 1769877597
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 69,
+                    "timestamp": 1769881201
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 70,
+                    "timestamp": 1769884805
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 71,
+                    "timestamp": 1769888768
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 72,
+                    "timestamp": 1769892370
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 73,
+                    "timestamp": 1769895972
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 74,
+                    "timestamp": 1769952222
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 75,
+                    "timestamp": 1769955824
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 76,
+                    "timestamp": 1769959457
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 77,
+                    "timestamp": 1769968200
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 78,
+                    "timestamp": 1769971804
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 79,
+                    "timestamp": 1769975406
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 80,
+                    "timestamp": 1769979009
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 81,
+                    "timestamp": 1770048016
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 82,
+                    "timestamp": 1770052518
+                }
+            ],
+            "bans": 0,
+            "totalPlaytime": 142740,
+            "kicks": 0,
+            "cleanTime": 1,
+            "trustLevel": "Regular",
+            "warnings": 0,
+            "lastSeen": 1770052590
+        },
+        "license:33c67754f28e301426d83d7e7ad8b8e71931b085": {
+            "reputationScore": 100,
+            "detections": [
+                {
+                    "timestamp": 1768750251,
+                    "details": "Event: QBCore:Server:SetMetaData",
+                    "type": "Exploit"
+                },
+                {
+                    "timestamp": 1768751368,
+                    "details": "Event: QBCore:Server:SetMetaData",
+                    "type": "Exploit"
+                }
+            ],
+            "adminNotes": [],
+            "name": "Eranda W",
+            "joinCount": 62,
+            "violations": [
+                {
+                    "change": -20,
+                    "reason": "Exploit: Event: QBCore:Server:SetMetaData",
+                    "newScore": 80,
+                    "timestamp": 1768750251
+                },
+                {
+                    "change": -20,
+                    "reason": "Exploit: Event: QBCore:Server:SetMetaData",
+                    "newScore": 60,
+                    "timestamp": 1768751368
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 61,
+                    "timestamp": 1768756387
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 62,
+                    "timestamp": 1768765271
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 63,
+                    "timestamp": 1768768873
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 64,
+                    "timestamp": 1769268308
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 65,
+                    "timestamp": 1769271910
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 66,
+                    "timestamp": 1769275598
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 67,
+                    "timestamp": 1769279201
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 68,
+                    "timestamp": 1769282803
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 69,
+                    "timestamp": 1769315823
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 70,
+                    "timestamp": 1769326208
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 71,
+                    "timestamp": 1769332897
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 72,
+                    "timestamp": 1769351137
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 73,
+                    "timestamp": 1769354739
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 74,
+                    "timestamp": 1769358343
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 75,
+                    "timestamp": 1769361947
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 76,
+                    "timestamp": 1769416953
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 77,
+                    "timestamp": 1769423496
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 78,
+                    "timestamp": 1769427098
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 79,
+                    "timestamp": 1769439975
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 80,
+                    "timestamp": 1769443576
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 81,
+                    "timestamp": 1769447899
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 82,
+                    "timestamp": 1769451505
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 83,
+                    "timestamp": 1769491589
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 84,
+                    "timestamp": 1769507810
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 85,
+                    "timestamp": 1769511472
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 86,
+                    "timestamp": 1769524789
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 87,
+                    "timestamp": 1769530552
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 88,
+                    "timestamp": 1769534392
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 89,
+                    "timestamp": 1769537994
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 90,
+                    "timestamp": 1769541595
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 91,
+                    "timestamp": 1769581390
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 92,
+                    "timestamp": 1769617071
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 93,
+                    "timestamp": 1769621994
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 94,
+                    "timestamp": 1769625596
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 95,
+                    "timestamp": 1769682975
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 96,
+                    "timestamp": 1769782231
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 97,
+                    "timestamp": 1769788594
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 98,
+                    "timestamp": 1769792196
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 99,
+                    "timestamp": 1769795799
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 100,
+                    "timestamp": 1769872672
+                }
+            ],
+            "bans": 0,
+            "totalPlaytime": 185340,
+            "kicks": 0,
+            "cleanTime": 0,
+            "trustLevel": "Trusted",
+            "warnings": 0,
+            "lastSeen": 1770081575
+        },
+        "license:750ebc2e46849dc32fbe28ef06091f3fbe59b39c": {
+            "reputationScore": 100,
+            "detections": [],
+            "adminNotes": [],
+            "name": "Enzo Anderson",
+            "joinCount": 2,
+            "violations": [],
+            "bans": 0,
+            "totalPlaytime": 4320,
+            "kicks": 0,
+            "cleanTime": 0,
+            "trustLevel": "Normal",
+            "warnings": 0,
+            "lastSeen": 1769952842
+        },
+        "license:a21f034885a2a0cc06d165575a5d4ff90c77ce81": {
+            "reputationScore": 100,
+            "detections": [],
+            "adminNotes": [],
+            "name": "Zayn Carter",
+            "joinCount": 3,
+            "violations": [],
+            "bans": 0,
+            "totalPlaytime": 8820,
+            "kicks": 0,
+            "cleanTime": 0,
+            "trustLevel": "Trusted",
+            "warnings": 0,
+            "lastSeen": 1769361013
+        },
+        "license:fac75f1c0cc0b2b11e50b47dc6d8229ca90c0559": {
+            "reputationScore": 100,
+            "detections": [],
+            "adminNotes": [],
+            "name": "William Lucas",
+            "joinCount": 2,
+            "violations": [],
+            "bans": 0,
+            "totalPlaytime": 3900,
+            "kicks": 0,
+            "cleanTime": 0,
+            "trustLevel": "Trusted",
+            "warnings": 0,
+            "lastSeen": 1769491887
+        },
+        "license:ad977707e6f6d6732645053d06a5c9df6decef99": {
+            "reputationScore": 100,
+            "warnings": 0,
+            "adminNotes": [],
+            "name": "Shenal Roska",
+            "detections": [],
+            "violations": [],
+            "bans": 0,
+            "totalPlaytime": 13500,
+            "kicks": 0,
+            "cleanTime": 0,
+            "trustLevel": "Trusted",
+            "joinCount": 5,
+            "lastSeen": 1770015243
+        },
+        "license:a2766801f23adf801641b38fe26d5305684816fb": {
+            "reputationScore": 100,
+            "detections": [],
+            "adminNotes": [],
+            "name": "Kaylee Jay",
+            "joinCount": 6,
+            "violations": [],
+            "bans": 0,
+            "totalPlaytime": 29280,
+            "kicks": 0,
+            "cleanTime": 0,
+            "trustLevel": "Trusted",
+            "warnings": 0,
+            "lastSeen": 1769804063
+        },
+        "license:9d75ce9122653344b2d062c8ba81a790e042c8f2": {
+            "reputationScore": 100,
+            "detections": [],
+            "adminNotes": [],
+            "name": "7",
+            "joinCount": 1,
+            "violations": [],
+            "bans": 0,
+            "totalPlaytime": 1620,
+            "kicks": 0,
+            "cleanTime": 0,
+            "trustLevel": "Normal",
+            "warnings": 0,
+            "lastSeen": 1769545046
+        },
+        "license:5691da496762db4efc3ec1e5af246a95f4ec0650": {
+            "reputationScore": 100,
+            "detections": [],
+            "adminNotes": [],
+            "name": "Yanky Aluthwaththa",
+            "joinCount": 34,
+            "violations": [],
+            "bans": 0,
+            "totalPlaytime": 156540,
+            "kicks": 0,
+            "cleanTime": 0,
+            "trustLevel": "Trusted",
+            "warnings": 0,
+            "lastSeen": 1770057098
+        },
+        "license:6262d1dc4cfaa07825607684367e4da1f278ff25": {
+            "reputationScore": 100,
+            "detections": [],
+            "adminNotes": [],
+            "name": "Achin Jayakody",
+            "joinCount": 23,
+            "violations": [],
+            "bans": 0,
+            "totalPlaytime": 24360,
+            "kicks": 0,
+            "cleanTime": 0,
+            "trustLevel": "Trusted",
+            "warnings": 0,
+            "lastSeen": 1769934788
+        },
+        "license:eb199d3daf70b222e08f5666890b3bb63838154a": {
+            "reputationScore": 100,
+            "detections": [],
+            "adminNotes": [],
+            "name": "Elina Ross",
+            "joinCount": 10,
+            "violations": [],
+            "bans": 0,
+            "totalPlaytime": 34440,
+            "kicks": 0,
+            "cleanTime": 0,
+            "trustLevel": "Trusted",
+            "warnings": 0,
+            "lastSeen": 1770049878
+        },
+        "license:d84483d81be066fb91b3113c15f69048d93ee736": {
+            "reputationScore": 9,
+            "detections": [
+                {
+                    "timestamp": 1769333156,
+                    "details": "Type: 30",
+                    "type": "Explosion"
+                },
+                {
+                    "timestamp": 1769882434,
+                    "details": "Player is invincible",
+                    "type": "Godmode"
+                },
+                {
+                    "timestamp": 1769882575,
+                    "details": "Player is invincible",
+                    "type": "Godmode"
+                },
+                {
+                    "timestamp": 1769932870,
+                    "details": "Player is invincible",
+                    "type": "Godmode"
+                },
+                {
+                    "timestamp": 1769938164,
+                    "details": "Player is invincible",
+                    "type": "Godmode"
+                }
+            ],
+            "adminNotes": [],
+            "name": "Edward Reaper",
+            "joinCount": 86,
+            "violations": [
+                {
+                    "change": -10,
+                    "reason": "Explosion: Type: 30",
+                    "newScore": 90,
+                    "timestamp": 1769333156
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 91,
+                    "timestamp": 1769337339
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 92,
+                    "timestamp": 1769354679
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 93,
+                    "timestamp": 1769359965
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 94,
+                    "timestamp": 1769363569
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 95,
+                    "timestamp": 1769431330
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 96,
+                    "timestamp": 1769447178
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 97,
+                    "timestamp": 1769450784
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 98,
+                    "timestamp": 1769454390
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 99,
+                    "timestamp": 1769493030
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 100,
+                    "timestamp": 1769496691
+                },
+                {
+                    "change": -25,
+                    "reason": "Godmode: Player is invincible",
+                    "newScore": 75,
+                    "timestamp": 1769882434
+                },
+                {
+                    "change": -25,
+                    "reason": "Godmode: Player is invincible",
+                    "newScore": 50,
+                    "timestamp": 1769882575
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 51,
+                    "timestamp": 1769928852
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 52,
+                    "timestamp": 1769932454
+                },
+                {
+                    "change": -25,
+                    "reason": "Godmode: Player is invincible",
+                    "newScore": 27,
+                    "timestamp": 1769932870
+                },
+                {
+                    "change": -25,
+                    "reason": "Godmode: Player is invincible",
+                    "newScore": 2,
+                    "timestamp": 1769938164
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 3,
+                    "timestamp": 1769938338
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 4,
+                    "timestamp": 1769942059
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 5,
+                    "timestamp": 1769965378
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 6,
+                    "timestamp": 1770010368
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 7,
+                    "timestamp": 1770013970
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 8,
+                    "timestamp": 1770017572
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 9,
+                    "timestamp": 1770021174
+                }
+            ],
+            "bans": 0,
+            "totalPlaytime": 169380,
+            "kicks": 0,
+            "cleanTime": 41,
+            "trustLevel": "High Risk",
+            "warnings": 0,
+            "lastSeen": 1770044806
+        },
+        "license:1e1b19a416fc5f6844c74b4c5763ec5e2e269cbf": {
+            "reputationScore": 84,
+            "detections": [
+                {
+                    "timestamp": 1768734319,
+                    "details": "Event: QBCore:Server:SetMetaData",
+                    "type": "Exploit"
+                },
+                {
+                    "timestamp": 1769803969,
+                    "details": "Player is invincible",
+                    "type": "Godmode"
+                }
+            ],
+            "adminNotes": [],
+            "name": "Hiran Erandaka",
+            "joinCount": 59,
+            "violations": [
+                {
+                    "change": -20,
+                    "reason": "Exploit: Event: QBCore:Server:SetMetaData",
+                    "newScore": 80,
+                    "timestamp": 1768734319
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 81,
+                    "timestamp": 1768740722
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 82,
+                    "timestamp": 1768747326
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 83,
+                    "timestamp": 1769271369
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 84,
+                    "timestamp": 1769277339
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 85,
+                    "timestamp": 1769280942
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 86,
+                    "timestamp": 1769284545
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 87,
+                    "timestamp": 1769288146
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 88,
+                    "timestamp": 1769291749
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 89,
+                    "timestamp": 1769295770
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 90,
+                    "timestamp": 1769299495
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 91,
+                    "timestamp": 1769335599
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 92,
+                    "timestamp": 1769339200
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 93,
+                    "timestamp": 1769372755
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 94,
+                    "timestamp": 1769376357
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 95,
+                    "timestamp": 1769381832
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 96,
+                    "timestamp": 1769385433
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 97,
+                    "timestamp": 1769447058
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 98,
+                    "timestamp": 1769450664
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 99,
+                    "timestamp": 1769454270
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 100,
+                    "timestamp": 1769458112
+                },
+                {
+                    "change": -25,
+                    "reason": "Godmode: Player is invincible",
+                    "newScore": 75,
+                    "timestamp": 1769803969
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 76,
+                    "timestamp": 1769808167
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 77,
+                    "timestamp": 1769873993
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 78,
+                    "timestamp": 1769888468
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 79,
+                    "timestamp": 1769892190
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 80,
+                    "timestamp": 1769895792
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 81,
+                    "timestamp": 1769968020
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 82,
+                    "timestamp": 1769971683
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 83,
+                    "timestamp": 1769975947
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 84,
+                    "timestamp": 1769979549
+                }
+            ],
+            "bans": 0,
+            "totalPlaytime": 136440,
+            "kicks": 0,
+            "cleanTime": 7,
+            "trustLevel": "Regular",
+            "warnings": 0,
+            "lastSeen": 1769980012
+        },
+        "license:ffb5fce99cfd0c3f8078eaaddc9e4a2365af6864": {
+            "reputationScore": 77,
+            "detections": [
+                {
+                    "timestamp": 1769446987,
+                    "details": "Player is invincible",
+                    "type": "Godmode"
+                }
+            ],
+            "adminNotes": [],
+            "name": "Prince Francisco",
+            "joinCount": 9,
+            "violations": [
+                {
+                    "change": -25,
+                    "reason": "Godmode: Player is invincible",
+                    "newScore": 75,
+                    "timestamp": 1769446987
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 76,
+                    "timestamp": 1769450904
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 77,
+                    "timestamp": 1769508531
+                }
+            ],
+            "bans": 0,
+            "totalPlaytime": 25860,
+            "kicks": 0,
+            "cleanTime": 39,
+            "trustLevel": "Normal",
+            "warnings": 0,
+            "lastSeen": 1769609956
+        },
+        "license:3644963ebc8e90a3619e719a0d22e036d46bc9d9": {
+            "reputationScore": 100,
+            "detections": [],
+            "adminNotes": [],
+            "name": "Yugi fudo",
+            "joinCount": 3,
+            "violations": [],
+            "bans": 0,
+            "totalPlaytime": 26520,
+            "kicks": 0,
+            "cleanTime": 0,
+            "trustLevel": "Trusted",
+            "warnings": 0,
+            "lastSeen": 1769807721
+        },
+        "license:22105be2c8f8f9248c8d7b82727a3f27813d19eb": {
+            "reputationScore": 100,
+            "detections": [],
+            "adminNotes": [],
+            "name": "Rock Devil",
+            "joinCount": 1,
+            "violations": [],
+            "bans": 0,
+            "totalPlaytime": 660,
+            "kicks": 0,
+            "cleanTime": 0,
+            "trustLevel": "Normal",
+            "warnings": 0,
+            "lastSeen": 1769925674
+        },
+        "license:e3cdd5faf15d3e69d30d08dfdcd88cb98cc40d9e": {
+            "reputationScore": 100,
+            "detections": [
+                {
+                    "timestamp": 1768749537,
+                    "details": "Ammo: 23 -> 30",
+                    "type": "WeaponHack"
+                },
+                {
+                    "timestamp": 1768750011,
+                    "details": "Ammo: 22 -> 30",
+                    "type": "WeaponHack"
+                }
+            ],
+            "adminNotes": [],
+            "name": "Andrew Jhonson",
+            "joinCount": 22,
+            "violations": [
+                {
+                    "change": -10,
+                    "reason": "WeaponHack: Ammo: 23 -> 30",
+                    "newScore": 90,
+                    "timestamp": 1768749537
+                },
+                {
+                    "change": -10,
+                    "reason": "WeaponHack: Ammo: 22 -> 30",
+                    "newScore": 80,
+                    "timestamp": 1768750011
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 81,
+                    "timestamp": 1769351737
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 82,
+                    "timestamp": 1769355340
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 83,
+                    "timestamp": 1769358944
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 84,
+                    "timestamp": 1769362547
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 85,
+                    "timestamp": 1769366392
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 86,
+                    "timestamp": 1769523288
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 87,
+                    "timestamp": 1769533912
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 88,
+                    "timestamp": 1769618692
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 89,
+                    "timestamp": 1769622294
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 90,
+                    "timestamp": 1769626016
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 91,
+                    "timestamp": 1769629618
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 92,
+                    "timestamp": 1769788114
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 93,
+                    "timestamp": 1769792196
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 94,
+                    "timestamp": 1769796820
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 95,
+                    "timestamp": 1769800423
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 96,
+                    "timestamp": 1769804325
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 97,
+                    "timestamp": 1769878618
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 98,
+                    "timestamp": 1769882222
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 99,
+                    "timestamp": 1769886006
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 100,
+                    "timestamp": 1769890029
+                }
+            ],
+            "bans": 0,
+            "totalPlaytime": 87360,
+            "kicks": 0,
+            "cleanTime": 0,
+            "trustLevel": "Trusted",
+            "warnings": 0,
+            "lastSeen": 1769899068
+        },
+        "license:d619462003c441edc5d61b74b2cd141b3123175b": {
+            "reputationScore": 100,
+            "detections": [],
+            "adminNotes": [],
+            "name": "Janiyaa A",
+            "joinCount": 1,
+            "violations": [],
+            "bans": 0,
+            "totalPlaytime": 3600,
+            "kicks": 0,
+            "cleanTime": 0,
+            "trustLevel": "Normal",
+            "warnings": 0,
+            "lastSeen": 1769352304
+        },
+        "license:4a83d066a44b0d0879f4b9512569e1b4a6df2230": {
+            "reputationScore": 100,
+            "detections": [],
+            "adminNotes": [],
+            "name": "Oshadhi Perera",
+            "joinCount": 10,
+            "violations": [],
+            "bans": 0,
+            "totalPlaytime": 64200,
+            "kicks": 0,
+            "cleanTime": 0,
+            "trustLevel": "Trusted",
+            "warnings": 0,
+            "lastSeen": 1769976246
+        },
+        "license:daa5a78a00fd0f3e3de82bac529913cac4d5d99c": {
+            "reputationScore": 83,
+            "detections": [
+                {
+                    "timestamp": 1768751875,
+                    "details": "Event: QBCore:Server:SetMetaData",
+                    "type": "Exploit"
+                }
+            ],
+            "adminNotes": [],
+            "name": "Achin Jayakody",
+            "joinCount": 5,
+            "violations": [
+                {
+                    "change": -20,
+                    "reason": "Exploit: Event: QBCore:Server:SetMetaData",
+                    "newScore": 80,
+                    "timestamp": 1768751875
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 81,
+                    "timestamp": 1768755847
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 82,
+                    "timestamp": 1769314022
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 83,
+                    "timestamp": 1769317624
+                }
+            ],
+            "bans": 0,
+            "totalPlaytime": 14580,
+            "kicks": 0,
+            "cleanTime": 59,
+            "trustLevel": "Normal",
+            "warnings": 0,
+            "lastSeen": 1769321177
+        },
+        "license:57bf022a5d21d4c1c0f4974d3c323fea1a643d85": {
+            "reputationScore": 100,
+            "detections": [],
+            "adminNotes": [],
+            "name": "Lucian PenDraGoN",
+            "joinCount": 1,
+            "violations": [],
+            "bans": 0,
+            "totalPlaytime": 1260,
+            "kicks": 0,
+            "cleanTime": 0,
+            "trustLevel": "Normal",
+            "warnings": 0,
+            "lastSeen": 1769799520
+        },
+        "license:74152f96e8d352ef0dfa0a3daddfcef1f88fe7ff": {
+            "reputationScore": 100,
+            "detections": [],
+            "adminNotes": [],
+            "name": "Pasindu PenDraGoN",
+            "joinCount": 6,
+            "violations": [],
+            "bans": 0,
+            "totalPlaytime": 23160,
+            "kicks": 0,
+            "cleanTime": 0,
+            "trustLevel": "Trusted",
+            "warnings": 0,
+            "lastSeen": 1768758530
+        },
+        "license:056611dfc4ae166d5c14ec5deb172a3cae916a8e": {
+            "reputationScore": 58,
+            "detections": [
+                {
+                    "timestamp": 1769354882,
+                    "details": "Player is invincible",
+                    "type": "Godmode"
+                },
+                {
+                    "timestamp": 1769603635,
+                    "details": "Player is invincible",
+                    "type": "Godmode"
+                },
+                {
+                    "timestamp": 1769696646,
+                    "details": "Player is invincible",
+                    "type": "Godmode"
+                }
+            ],
+            "adminNotes": [],
+            "name": "Matin Lukas",
+            "joinCount": 57,
+            "violations": [
+                {
+                    "change": -25,
+                    "reason": "Godmode: Player is invincible",
+                    "newScore": 75,
+                    "timestamp": 1769354882
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 76,
+                    "timestamp": 1769359604
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 77,
+                    "timestamp": 1769508471
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 78,
+                    "timestamp": 1769512072
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 79,
+                    "timestamp": 1769515964
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 80,
+                    "timestamp": 1769519866
+                },
+                {
+                    "change": -25,
+                    "reason": "Godmode: Player is invincible",
+                    "newScore": 55,
+                    "timestamp": 1769603635
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 56,
+                    "timestamp": 1769607345
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 57,
+                    "timestamp": 1769610947
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 58,
+                    "timestamp": 1769614970
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 59,
+                    "timestamp": 1769618812
+                },
+                {
+                    "change": -25,
+                    "reason": "Godmode: Player is invincible",
+                    "newScore": 34,
+                    "timestamp": 1769696646
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 35,
+                    "timestamp": 1769774967
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 36,
+                    "timestamp": 1769778569
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 37,
+                    "timestamp": 1769782231
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 38,
+                    "timestamp": 1769785833
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 39,
+                    "timestamp": 1769790755
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 40,
+                    "timestamp": 1769794358
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 41,
+                    "timestamp": 1769863547
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 42,
+                    "timestamp": 1769867209
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 43,
+                    "timestamp": 1769871231
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 44,
+                    "timestamp": 1769874953
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 45,
+                    "timestamp": 1769878558
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 46,
+                    "timestamp": 1769882162
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 47,
+                    "timestamp": 1769885886
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 48,
+                    "timestamp": 1769924290
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 49,
+                    "timestamp": 1769929573
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 50,
+                    "timestamp": 1769942840
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 51,
+                    "timestamp": 1769946442
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 52,
+                    "timestamp": 1769962879
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 53,
+                    "timestamp": 1769966519
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 54,
+                    "timestamp": 1769970122
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 55,
+                    "timestamp": 1770037210
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 56,
+                    "timestamp": 1770040812
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 57,
+                    "timestamp": 1770046034
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 58,
+                    "timestamp": 1770049637
+                }
+            ],
+            "bans": 0,
+            "totalPlaytime": 159600,
+            "kicks": 0,
+            "cleanTime": 47,
+            "trustLevel": "Normal",
+            "warnings": 0,
+            "lastSeen": 1770052510
+        },
+        "license:6a83e715bc67f879d959fb0231c93274450ab844": {
+            "reputationScore": 100,
+            "detections": [],
+            "adminNotes": [],
+            "name": "Abi Diaes",
+            "joinCount": 54,
+            "violations": [],
+            "bans": 0,
+            "totalPlaytime": 220440,
+            "kicks": 0,
+            "cleanTime": 0,
+            "trustLevel": "Trusted",
+            "warnings": 0,
+            "lastSeen": 1770050689
+        },
+        "license:a2cb80d7107271372a9018752a3ea5611a3eaa2f": {
+            "reputationScore": 100,
+            "detections": [
+                {
+                    "timestamp": 1768749989,
+                    "details": "Event: QBCore:Server:SetMetaData",
+                    "type": "Exploit"
+                },
+                {
+                    "timestamp": 1769533623,
+                    "details": "Player is invincible",
+                    "type": "Godmode"
+                }
+            ],
+            "adminNotes": [],
+            "name": "HEX LK",
+            "joinCount": 40,
+            "violations": [
+                {
+                    "change": -20,
+                    "reason": "Exploit: Event: QBCore:Server:SetMetaData",
+                    "newScore": 80,
+                    "timestamp": 1768749989
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 81,
+                    "timestamp": 1768755310
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 82,
+                    "timestamp": 1768758976
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 83,
+                    "timestamp": 1768765211
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 84,
+                    "timestamp": 1768768813
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 85,
+                    "timestamp": 1768797865
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 86,
+                    "timestamp": 1769274397
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 87,
+                    "timestamp": 1769278420
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 88,
+                    "timestamp": 1769282142
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 89,
+                    "timestamp": 1769285745
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 90,
+                    "timestamp": 1769289347
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 91,
+                    "timestamp": 1769292949
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 92,
+                    "timestamp": 1769296551
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 93,
+                    "timestamp": 1769300336
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 94,
+                    "timestamp": 1769362788
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 95,
+                    "timestamp": 1769366392
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 96,
+                    "timestamp": 1769369994
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 97,
+                    "timestamp": 1769373776
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 98,
+                    "timestamp": 1769377810
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 99,
+                    "timestamp": 1769381412
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 100,
+                    "timestamp": 1769385013
+                },
+                {
+                    "change": -25,
+                    "reason": "Godmode: Player is invincible",
+                    "newScore": 75,
+                    "timestamp": 1769533623
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 76,
+                    "timestamp": 1769537453
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 77,
+                    "timestamp": 1769541055
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 78,
+                    "timestamp": 1769544657
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 79,
+                    "timestamp": 1769605904
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 80,
+                    "timestamp": 1769609507
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 81,
+                    "timestamp": 1769613109
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 82,
+                    "timestamp": 1769616711
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 83,
+                    "timestamp": 1769620313
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 84,
+                    "timestamp": 1769624035
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 85,
+                    "timestamp": 1769627637
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 86,
+                    "timestamp": 1769631239
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 87,
+                    "timestamp": 1769634840
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 88,
+                    "timestamp": 1769638442
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 89,
+                    "timestamp": 1769642044
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 90,
+                    "timestamp": 1769645645
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 91,
+                    "timestamp": 1769690116
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 92,
+                    "timestamp": 1769770885
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 93,
+                    "timestamp": 1769774487
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 94,
+                    "timestamp": 1769778088
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 95,
+                    "timestamp": 1769781690
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 96,
+                    "timestamp": 1769785412
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 97,
+                    "timestamp": 1769789014
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 98,
+                    "timestamp": 1769792616
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 99,
+                    "timestamp": 1769796219
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 100,
+                    "timestamp": 1769799822
+                }
+            ],
+            "bans": 0,
+            "totalPlaytime": 264720,
+            "kicks": 0,
+            "cleanTime": 0,
+            "trustLevel": "Trusted",
+            "warnings": 0,
+            "lastSeen": 1770047342
+        },
+        "license:245e32737da76afb1b58b3bfda091d1cec1b8f8a": {
+            "reputationScore": 100,
+            "detections": [],
+            "adminNotes": [],
+            "name": "Ace Bond",
+            "joinCount": 2,
+            "violations": [],
+            "bans": 0,
+            "totalPlaytime": 1560,
+            "kicks": 0,
+            "cleanTime": 0,
+            "trustLevel": "Normal",
+            "warnings": 0,
+            "lastSeen": 1770035589
+        },
+        "license:593d768dc123946377e138a00bb12a61bcbb5ea3": {
+            "reputationScore": 100,
+            "detections": [],
+            "adminNotes": [],
+            "name": "Ezio Jake",
+            "joinCount": 3,
+            "violations": [],
+            "bans": 0,
+            "totalPlaytime": 5820,
+            "kicks": 0,
+            "cleanTime": 0,
+            "trustLevel": "Trusted",
+            "warnings": 0,
+            "lastSeen": 1770063399
+        },
+        "license:1554a00649c3a265aee1fe9d7e103a7c7fd57f57": {
+            "reputationScore": 61,
+            "detections": [
+                {
+                    "timestamp": 1769449892,
+                    "details": "Player is invincible",
+                    "type": "Godmode"
+                },
+                {
+                    "timestamp": 1769621115,
+                    "details": "Player is invincible",
+                    "type": "Godmode"
+                }
+            ],
+            "adminNotes": [],
+            "name": "Ethan Walker",
+            "joinCount": 23,
+            "violations": [
+                {
+                    "change": -25,
+                    "reason": "Godmode: Player is invincible",
+                    "newScore": 75,
+                    "timestamp": 1769449892
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 76,
+                    "timestamp": 1769453549
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 77,
+                    "timestamp": 1769457154
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 78,
+                    "timestamp": 1769500353
+                },
+                {
+                    "change": -25,
+                    "reason": "Godmode: Player is invincible",
+                    "newScore": 53,
+                    "timestamp": 1769621115
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 54,
+                    "timestamp": 1769778148
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 55,
+                    "timestamp": 1769781750
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 56,
+                    "timestamp": 1769785472
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 57,
+                    "timestamp": 1769791235
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 58,
+                    "timestamp": 1769795198
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 59,
+                    "timestamp": 1769798801
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 60,
+                    "timestamp": 1769883483
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 61,
+                    "timestamp": 1769887269
+                }
+            ],
+            "bans": 0,
+            "totalPlaytime": 69180,
+            "kicks": 0,
+            "cleanTime": 2,
+            "trustLevel": "Normal",
+            "warnings": 0,
+            "lastSeen": 1769887439
+        },
+        "license:a72b0605ffea9f0d92467c825ad581584b5ad67c": {
+            "reputationScore": 100,
+            "detections": [],
+            "adminNotes": [],
+            "name": "Lasi Perera",
+            "joinCount": 51,
+            "violations": [],
+            "bans": 0,
+            "totalPlaytime": 205740,
+            "kicks": 0,
+            "cleanTime": 0,
+            "trustLevel": "Trusted",
+            "warnings": 0,
+            "lastSeen": 1769985549
+        },
+        "license:a23a46a2b8f1e40e048829ba5859645e27282c8f": {
+            "reputationScore": 100,
+            "detections": [],
+            "adminNotes": [],
+            "name": "Zirox Wolker",
+            "joinCount": 3,
+            "violations": [],
+            "bans": 0,
+            "totalPlaytime": 11400,
+            "kicks": 0,
+            "cleanTime": 0,
+            "trustLevel": "Trusted",
+            "warnings": 0,
+            "lastSeen": 1768752069
+        },
+        "license:56fbceb56d873996157511db6a3ba10588bbcbad": {
+            "reputationScore": 100,
+            "detections": [],
+            "adminNotes": [],
+            "name": "max perera",
+            "joinCount": 34,
+            "violations": [],
+            "bans": 0,
+            "totalPlaytime": 95940,
+            "kicks": 0,
+            "cleanTime": 0,
+            "trustLevel": "Trusted",
+            "warnings": 0,
+            "lastSeen": 1770029269
+        },
+        "license:e6e606aafa0fdb08a330537eedb25fff350192b9": {
+            "reputationScore": 100,
+            "detections": [],
+            "adminNotes": [],
+            "name": "MuDDa Paala",
+            "joinCount": 1,
+            "violations": [],
+            "bans": 0,
+            "totalPlaytime": 540,
+            "kicks": 0,
+            "cleanTime": 0,
+            "trustLevel": "Normal",
+            "warnings": 0,
+            "lastSeen": 1769448609
+        },
+        "license:ffe7e386235b0846c4a1cb2c0d23ee90826ea264": {
+            "reputationScore": 62,
+            "detections": [
+                {
+                    "timestamp": 1769457532,
+                    "details": "Player is invincible",
+                    "type": "Godmode"
+                },
+                {
+                    "timestamp": 1769611595,
+                    "details": "Player is invincible",
+                    "type": "Godmode"
+                }
+            ],
+            "adminNotes": [],
+            "name": "Dala Gomas",
+            "joinCount": 34,
+            "violations": [
+                {
+                    "change": -25,
+                    "reason": "Godmode: Player is invincible",
+                    "newScore": 75,
+                    "timestamp": 1769457532
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 76,
+                    "timestamp": 1769500893
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 77,
+                    "timestamp": 1769506730
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 78,
+                    "timestamp": 1769608546
+                },
+                {
+                    "change": -25,
+                    "reason": "Godmode: Player is invincible",
+                    "newScore": 53,
+                    "timestamp": 1769611595
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 54,
+                    "timestamp": 1769612628
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 55,
+                    "timestamp": 1769796699
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 56,
+                    "timestamp": 1769800303
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 57,
+                    "timestamp": 1769873032
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 58,
+                    "timestamp": 1769876756
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 59,
+                    "timestamp": 1769962699
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 60,
+                    "timestamp": 1769966339
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 61,
+                    "timestamp": 1769969941
+                },
+                {
+                    "change": 1,
+                    "reason": "Clean playtime",
+                    "newScore": 62,
+                    "timestamp": 1770031079
+                }
+            ],
+            "bans": 0,
+            "totalPlaytime": 69960,
+            "kicks": 0,
+            "cleanTime": 37,
+            "trustLevel": "Normal",
+            "warnings": 0,
+            "lastSeen": 1770033478
+        },
+        "license:0b5bed8545983124ba1929fad74d3168f05bdf5c": {
+            "reputationScore": 100,
+            "warnings": 0,
+            "adminNotes": [],
+            "name": "IN PODDA",
+            "detections": [],
+            "violations": [],
+            "bans": 0,
+            "totalPlaytime": 4560,
+            "kicks": 0,
+            "cleanTime": 0,
+            "trustLevel": "Normal",
+            "joinCount": 1,
+            "lastSeen": 1770026945
+        },
+        "license:af0725dd9da2d1600192a0496996242edc89db59": {
+            "reputationScore": 100,
+            "detections": [],
+            "adminNotes": [],
+            "name": "Francesco Giuliano",
+            "joinCount": 19,
+            "violations": [],
+            "bans": 0,
+            "totalPlaytime": 42840,
+            "kicks": 0,
+            "cleanTime": 0,
+            "trustLevel": "Trusted",
+            "warnings": 0,
+            "lastSeen": 1769898726
+        },
+        "license:ff241d032e938e9ee4e9db0d05cd1fbd67836b7f": {
+            "reputationScore": 100,
+            "detections": [],
+            "adminNotes": [],
+            "name": "Nadeesh Fdo",
+            "joinCount": 7,
+            "violations": [],
+            "bans": 0,
+            "totalPlaytime": 3900,
+            "kicks": 0,
+            "cleanTime": 0,
+            "trustLevel": "Normal",
+            "warnings": 0,
+            "lastSeen": 1769719175
+        }
+    },
+    "reputation": []
+}

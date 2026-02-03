@@ -1,0 +1,11 @@
+[
+    {
+        "expiryTime": 0,
+        "identifier": "license:13ffb55d3d375599979ca9ed15f525ef1a8ec1e3",
+        "playerName": "tom kyzer",
+        "timestamp": 1770052520,
+        "detectionType": "Movement",
+        "reason": "Super Jump",
+        "permanent": true
+    }
+]

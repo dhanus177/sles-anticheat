@@ -1,0 +1,37 @@
+name: Client Scanner CI Build
+
+on:
+  push:
+    paths:
+      - "client-scanner/**"
+      - ".github/workflows/client-scanner-build.yml"
+  pull_request:
+    paths:
+      - "client-scanner/**"
+      - ".github/workflows/client-scanner-build.yml"
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: windows-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup .NET
+        uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: "8.0.x"
+
+      - name: Restore
+        run: dotnet restore client-scanner/ClientScanner.csproj
+
+      - name: Publish (win-x64)
+        run: dotnet publish client-scanner/ClientScanner.csproj -c Release -r win-x64 --self-contained true -p:PublishSingleFile=true -p:IncludeNativeLibrariesForSelfExtract=true -o client-scanner/artifacts/win-x64
+
+      - name: Upload artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: ClientScanner-win-x64
+          path: client-scanner/artifacts/win-x64/ClientScanner.exe

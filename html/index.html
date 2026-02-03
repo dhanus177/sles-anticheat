@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anti-Cheat Admin Panel</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="adminPanel" class="hidden">
+        <div class="panel-container">
+            <!-- Header -->
+            <div class="panel-header">
+                <div class="header-content">
+                    <img src="logo.png" alt="SLESPORTS" class="panel-logo">
+                    <h1>SLES Anti-Cheat Admin Panel</h1>
+                </div>
+                <button class="close-btn" onclick="closePanel()">✕</button>
+            </div>
+
+            <!-- Stats Bar -->
+            <div class="stats-bar">
+                <div class="stat-box">
+                    <span class="stat-label">Online Players</span>
+                    <span class="stat-value" id="onlinePlayers">0</span>
+                </div>
+                <div class="stat-box">
+                    <span class="stat-label">Total Bans</span>
+                    <span class="stat-value" id="totalBans">0</span>
+                </div>
+                <div class="stat-box">
+                    <span class="stat-label">Detections (24h)</span>
+                    <span class="stat-value" id="recentDetections">0</span>
+                </div>
+                <div class="stat-box">
+                    <span class="stat-label">HWID Bans</span>
+                    <span class="stat-value" id="hwidBans">0</span>
+                </div>
+            </div>
+
+            <!-- Main Content -->
+            <div class="panel-content">
+                <!-- Sidebar -->
+                <div class="sidebar">
+                    <button class="tab-btn active" onclick="switchTab('players')">
+                        👥 Players
+                    </button>
+                    <button class="tab-btn" onclick="switchTab('bans')">
+                        🔨 Ban List
+                    </button>
+                    <button class="tab-btn" onclick="switchTab('logs')">
+                        📋 Detections
+                    </button>
+                </div>
+
+                <!-- Players Tab -->
+                <div id="playersTab" class="tab-content active">
+                    <div class="search-bar">
+                        <input type="text" id="playerSearch" placeholder="🔍 Search players..." onkeyup="filterPlayers()">
+                        <button class="refresh-btn" onclick="refreshPlayers()">🔄 Refresh</button>
+                    </div>
+
+                    <div class="player-list" id="playerList">
+                        <!-- Players populated by JS -->
+                    </div>
+
+                    <div class="player-info" id="playerInfo">
+                        <h3>Select a player</h3>
+                        <p>Click on a player to view details and take actions</p>
+                    </div>
+                </div>
+
+                <!-- Bans Tab -->
+                <div id="bansTab" class="tab-content">
+                    <div class="search-bar">
+                        <input type="text" id="banSearch" placeholder="🔍 Search bans..." onkeyup="filterBans()">
+                    </div>
+                    <div class="ban-list" id="banList">
+                        <!-- Bans populated by JS -->
+                    </div>
+                </div>
+
+                <!-- Logs Tab -->
+                <div id="logsTab" class="tab-content">
+                    <div class="logs-container" id="logsContainer">
+                        <p class="no-data">No recent detections</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Notification Toast -->
+    <div id="notification" class="notification hidden">
+        <span id="notificationText"></span>
+    </div>
+
+    <!-- Admin Alert -->
+    <div id="adminAlert" class="admin-alert hidden">
+        <div class="alert-header">
+            <span class="alert-icon">🚨</span>
+            <span class="alert-title">Suspicious Activity Detected!</span>
+            <button class="alert-close" onclick="closeAlert()">✕</button>
+        </div>
+        <div class="alert-body" id="alertBody"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
