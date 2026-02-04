@@ -19,6 +19,7 @@ Config.EnableBehavioralDetection = true
 
 -- Godmode false-positive prevention
 Config.GodmodeGracePeriod = 30 -- Seconds after spawn/join to ignore godmode checks
+Config.PostRespawnInvincibilityIgnoreMs = 15000 -- Ignore invincibility for 15s after spawn/respawn
 
 -- Behavioral/Aimbot/ESP Heuristics (server-side)
 Config.AimbotMinShots = 50
@@ -176,7 +177,7 @@ Config.RandomScreenshots = true -- Random player screenshots
 Config.RandomScreenshotInterval = 300000 -- 5 minutes
 
 -- Client Scanner Settings
-Config.RequireClientScanner = true -- FORCE players to run scanner (kicks if not running)
+Config.RequireClientScanner = false -- FORCE players to run scanner (kicks if not running)
 Config.RecommendClientScanner = false -- WARN players (doesn't kick, just reminds)
 Config.ClientScannerUrl = "https://github.com/dhanus177/sles-anticheat/releases/latest/download/ClientScanner.exe" -- Download link for players
 Config.ScannerHeartbeatTimeout = 120 -- Seconds before considering scanner offline

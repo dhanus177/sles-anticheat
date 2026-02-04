@@ -33,7 +33,14 @@ end
 
 -- Initialize player stats
 function InitPlayerStats(source)
-    local identifier = GetPlayerIdentifiers(source)[1]
+    if not source then
+        return
+    end
+    local identifiers = GetPlayerIdentifiers(source)
+    local identifier = identifiers and identifiers[1] or nil
+    if not identifier then
+        return
+    end
     
     if not PlayerStats[identifier] then
         PlayerStats[identifier] = {
@@ -65,7 +72,14 @@ end
 
 -- Update reputation score
 function UpdateReputation(source, change, reason)
-    local identifier = GetPlayerIdentifiers(source)[1]
+    if not source then
+        return
+    end
+    local identifiers = GetPlayerIdentifiers(source)
+    local identifier = identifiers and identifiers[1] or nil
+    if not identifier then
+        return
+    end
     
     if not PlayerStats[identifier] then
         InitPlayerStats(source)
@@ -119,7 +133,14 @@ end
 
 -- Record violation
 function RecordViolation(source, violationType, details)
-    local identifier = GetPlayerIdentifiers(source)[1]
+    if not source then
+        return
+    end
+    local identifiers = GetPlayerIdentifiers(source)
+    local identifier = identifiers and identifiers[1] or nil
+    if not identifier then
+        return
+    end
     
     if not PlayerStats[identifier] then
         InitPlayerStats(source)
@@ -240,7 +261,14 @@ end)
 -- Player dropped
 AddEventHandler('playerDropped', function()
     local source = source
-    local identifier = GetPlayerIdentifiers(source)[1]
+    if not source then
+        return
+    end
+    local identifiers = GetPlayerIdentifiers(source)
+    local identifier = identifiers and identifiers[1] or nil
+    if not identifier then
+        return
+    end
     
     if PlayerStats[identifier] then
         PlayerStats[identifier].lastSeen = os.time()

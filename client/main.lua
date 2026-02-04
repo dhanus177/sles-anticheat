@@ -6,6 +6,11 @@ AddEventHandler('anticheat:detection', function(reason, detectionType, details)
     -- Server handles the detection
 end)
 
+-- Notify server on spawn to reset godmode grace period
+AddEventHandler('playerSpawned', function()
+    TriggerServerEvent('anticheat:playerSpawned')
+end)
+
 -- Monitor vehicle spawning
 CreateThread(function()
     while true do
@@ -16,7 +21,7 @@ CreateThread(function()
         
         if vehicle ~= 0 and DoesEntityExist(vehicle) then
             local vehicleHash = GetEntityModel(vehicle)
-            local vehicleName = GetDisplayNameFromHashKey(vehicleHash)
+            local vehicleName = GetDisplayNameFromVehicleModel(vehicleHash)
             TriggerServerEvent('anticheat:vehicleSpawned', vehicleName)
         end
     end

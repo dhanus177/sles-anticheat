@@ -7,13 +7,10 @@ if Config.EnableScreenshotCheck then
         local playerName = GetPlayerName(PlayerId()) or "Unknown"
 
         -- Use screenshot-basic upload directly to Discord webhook with metadata
-        if exports and exports["screenshot-basic"] and exports["screenshot-basic"].requestClientScreenshotUpload then
-            exports['screenshot-basic']:requestClientScreenshotUpload(webhook, {
+        if exports and exports["screenshot-basic"] and exports["screenshot-basic"].requestScreenshotUpload then
+            exports['screenshot-basic']:requestScreenshotUpload(webhook, 'files[]', {
                 encoding = 'jpg',
                 quality = Config.ScreenshotQuality or 0.5,
-                headers = {
-                    ['Content-Type'] = 'multipart/form-data'
-                },
                 fields = {
                     ['content'] = string.format("Screenshot from %s (ID: %s) @ %s", playerName, tostring(playerId), os.date("%Y-%m-%d %H:%M:%S"))
                 }

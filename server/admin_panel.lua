@@ -4,6 +4,19 @@
 local function HasAdminPermission(src)
     -- Primary: ACE permission defined in Config.AdminAce (e.g., 'anticheat.admin')
     if IsPlayerAceAllowed(src, Config.AdminAce) then return true end
+    if Config.AdminBypassAce and IsPlayerAceAllowed(src, Config.AdminBypassAce) then return true end
+
+    -- Identifier allowlist (reuse bypass identifiers as trusted admins)
+    local identifiers = GetPlayerIdentifiers(src)
+    if Config.BypassIdentifiers and #Config.BypassIdentifiers > 0 then
+        for _, id in ipairs(identifiers) do
+            for _, allowed in ipairs(Config.BypassIdentifiers) do
+                if string.lower(id) == string.lower(allowed) then
+                    return true
+                end
+            end
+        end
+    end
 
     -- Fallback: txAdmin admin status if monitor resource is running
     if GetResourceState('monitor') == 'started' and exports['monitor'] then
@@ -74,6 +87,7 @@ AddEventHandler('anticheat:checkAdmin', function()
         TriggerClientEvent('chat:addMessage', source, {
             args = {"^1[ANTI-CHEAT]", "You don't have permission to access the admin panel. Contact server admin."}
         })
+        TriggerClientEvent('anticheat:notify', source, "Admin panel access denied (missing ACE/allowlist)", "error")
         print(string.format("^1[ADMIN-PANEL]^7 Denied panel access for %s - Missing ACE: %s", playerName, Config.AdminAce))
     end
 end)

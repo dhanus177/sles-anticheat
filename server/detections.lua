@@ -4,7 +4,7 @@ local PlayerData = {}
 local RecentDetections = {}
 
 function LogDetectionRecord(source, detectionType, details)
-    local playerName = GetPlayerName(source) or "Unknown"
+    local playerName = source and GetPlayerName(source) or "Unknown"
     local record = {
         playerName = playerName,
         type = detectionType,
@@ -63,6 +63,7 @@ function InitPlayer(source)
         shots = 0,
         headshots = 0,
         spawnProtectionUntil = GetGameTimer() + ((Config.GodmodeGracePeriod or 30) * 1000),
+        invincibilityIgnoreUntil = GetGameTimer() + (Config.PostRespawnInvincibilityIgnoreMs or 0),
     }
 end
 
@@ -156,6 +157,11 @@ function CheckGodmode(source)
     -- Check godmode indicator (server-side only)
     -- Note: GetEntityInvincible is not available server-side
     local isInvincible = GetPlayerInvincible(source)
+    if isInvincible and PlayerData[source] and PlayerData[source].invincibilityIgnoreUntil then
+        if GetGameTimer() < PlayerData[source].invincibilityIgnoreUntil then
+            return
+        end
+    end
     local health = GetEntityHealth(ped)
     local maxHealth = GetEntityMaxHealth(ped)
 
@@ -251,11 +257,18 @@ end
 
 -- Detection handler
 function DetectionHandler(source, reason, detectionType, details)
+    if not source or source == 0 then
+        print(string.format("[ANTI-CHEAT] Detection ignored (invalid source) | Type: %s | Details: %s",
+            tostring(detectionType), tostring(details)))
+        return
+    end
+
     local playerName = GetPlayerName(source)
-    local identifier = GetPlayerIdentifiers(source)[1]
+    local identifiers = GetPlayerIdentifiers(source)
+    local identifier = identifiers and identifiers[1] or nil
     
     print(string.format("[ANTI-CHEAT] Detection - Player: %s | Type: %s | Details: %s", 
-        playerName, detectionType, details))
+        playerName or "Unknown", detectionType, details))
     
     -- Record in player stats
     if RecordViolation then
@@ -281,8 +294,8 @@ function DetectionHandler(source, reason, detectionType, details)
     end
     
     -- Auto ban if enabled
-    if Config.AutoBan then
-        AddBan(identifier, playerName, reason, detectionType)
+    if Config.AutoBan and identifier then
+        AddBan(identifier, playerName or "Unknown", reason, detectionType)
         
         -- Add HWID ban for all serious violations
         if Config.EnableHWIDBans then
@@ -446,6 +459,20 @@ end)
 AddEventHandler('playerJoining', function()
     local source = source
     InitPlayer(source)
+end)
+
+-- Player spawned (reset godmode grace period)
+RegisterNetEvent('anticheat:playerSpawned')
+AddEventHandler('anticheat:playerSpawned', function()
+    local source = source
+    if not source or source == 0 then return end
+
+    if not PlayerData[source] then
+        InitPlayer(source)
+    end
+
+    PlayerData[source].spawnProtectionUntil = GetGameTimer() + ((Config.GodmodeGracePeriod or 30) * 1000)
+    PlayerData[source].invincibilityIgnoreUntil = GetGameTimer() + (Config.PostRespawnInvincibilityIgnoreMs or 0)
 end)
 
 -- Helper function to get zone name from coordinates
