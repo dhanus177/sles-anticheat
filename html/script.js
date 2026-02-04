@@ -419,18 +419,49 @@ function updateConfig() {
             if (configData[key] === undefined) return;
             const value = configData[key];
             const isBool = typeof value === 'boolean';
-            const badge = isBool
-                ? `<span class="badge ${value ? 'badge-on' : 'badge-off'}">${value ? 'On' : 'Off'}</span>`
-                : `<span class="badge badge-neutral">${value}</span>`;
-
+            
             const row = document.createElement('div');
             row.className = 'settings-row';
-            row.innerHTML = `<span class="settings-key">${key}</span>${badge}`;
+            row.innerHTML = `
+                <span class="settings-key">${key}</span>
+                ${isBool ? 
+                    `<button class="toggle-btn ${value ? 'toggle-on' : 'toggle-off'}" onclick="toggleConfigValue('${key}')">
+                        ${value ? 'On' : 'Off'}
+                    </button>` :
+                    `<input type="number" class="config-input" value="${value}" onchange="updateConfigNumber('${key}', this.value)">`
+                }
+            `;
             card.appendChild(row);
         });
 
         grid.appendChild(card);
     });
+}
+
+function toggleConfigValue(key) {
+    const currentValue = configData[key];
+    const newValue = !currentValue;
+    
+    fetch(`https://${GetParentResourceName()}/updateConfigValue`, {
+        method: 'POST',
+        body: JSON.stringify({ key: key, value: newValue })
+    }).then(() => {
+        // Update local config data
+        configData[key] = newValue;
+        updateConfig();
+    }).catch(err => console.error('Failed to update config:', err));
+}
+
+function updateConfigNumber(key, value) {
+    const numValue = parseFloat(value);
+    if (isNaN(numValue)) return;
+    
+    fetch(`https://${GetParentResourceName()}/updateConfigValue`, {
+        method: 'POST',
+        body: JSON.stringify({ key: key, value: numValue })
+    }).then(() => {
+        configData[key] = numValue;
+    }).catch(err => console.error('Failed to update config:', err));
 }
 
 // Unban player

@@ -161,6 +161,34 @@ AddEventHandler('anticheat:requestConfig', function()
     TriggerClientEvent('anticheat:receiveConfig', source, GetConfigSnapshot())
 end)
 
+-- Update config value
+RegisterServerEvent('anticheat:updateConfigValue')
+AddEventHandler('anticheat:updateConfigValue', function(key, value)
+    local source = source
+    
+    if source == 0 or not HasAdminPermission(source) then return end
+    
+    if Config[key] ~= nil then
+        Config[key] = value
+        
+        -- Send updated config to all admins
+        TriggerClientEvent('anticheat:receiveConfig', source, GetConfigSnapshot())
+        TriggerClientEvent('anticheat:notify', source, string.format('Config updated: %s = %s', key, tostring(value)), 'success')
+        
+        local adminName = GetPlayerName(source)
+        print(string.format('^3[ADMIN-PANEL]^7 %s updated config: %s = %s', adminName, key, tostring(value)))
+        
+        if Config.EnableWebhook and SendWebhook then
+            SendWebhook('⚙️ Config Update', string.format(
+                '**Admin:** %s\n**Setting:** %s\n**Value:** %s',
+                adminName, key, tostring(value)
+            ))
+        end
+    else
+        TriggerClientEvent('anticheat:notify', source, 'Invalid config key', 'error')
+    end
+end)
+
 -- Send stats
 RegisterServerEvent('anticheat:requestStats')
 AddEventHandler('anticheat:requestStats', function()

@@ -103,6 +103,11 @@ RegisterNUICallback('requestConfig', function(data, cb)
     cb('ok')
 end)
 
+RegisterNUICallback('updateConfigValue', function(data, cb)
+    TriggerServerEvent('anticheat:updateConfigValue', data.key, data.value)
+    cb('ok')
+end)
+
 -- Receive player list from server
 RegisterNetEvent('anticheat:receivePlayerList')
 AddEventHandler('anticheat:receivePlayerList', function(players)

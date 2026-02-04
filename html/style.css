@@ -709,3 +709,64 @@ body {
     color: var(--text);
     border: 1px solid var(--border);
 }
+
+/* Toggle Buttons */
+.toggle-btn {
+    padding: 6px 16px;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    cursor: pointer;
+    transition: all 0.2s;
+    border: 1px solid;
+    text-transform: uppercase;
+}
+
+.toggle-on {
+    background: rgba(90, 245, 156, 0.15);
+    color: var(--accent);
+    border-color: rgba(90, 245, 156, 0.4);
+}
+
+.toggle-on:hover {
+    background: rgba(90, 245, 156, 0.25);
+    border-color: var(--accent);
+    transform: translateY(-1px);
+}
+
+.toggle-off {
+    background: rgba(255, 93, 93, 0.12);
+    color: var(--danger);
+    border-color: rgba(255, 93, 93, 0.3);
+}
+
+.toggle-off:hover {
+    background: rgba(255, 93, 93, 0.22);
+    border-color: var(--danger);
+    transform: translateY(-1px);
+}
+
+/* Config Input Fields */
+.config-input {
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid var(--border);
+    color: var(--text);
+    padding: 6px 12px;
+    border-radius: 8px;
+    font-size: 13px;
+    width: 100px;
+    text-align: center;
+    transition: all 0.2s;
+}
+
+.config-input:focus {
+    outline: none;
+    border-color: var(--accent);
+    background: rgba(255, 255, 255, 0.08);
+    box-shadow: 0 0 0 3px rgba(90, 245, 156, 0.1);
+}
+
+.config-input:hover {
+    border-color: rgba(90, 245, 156, 0.3);
+}
