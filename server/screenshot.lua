@@ -109,9 +109,10 @@ function SendWebhookWithImage(title, description, imageData)
     local function base64decode(data)
         if not data then return "" end
         data = data:gsub("[^%w%+/%=]", "")
+        local alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/"
         return (data:gsub(".", function(x)
             if x == "=" then return "" end
-            local r, f = "", ("ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/":find(x) - 1)
+            local r, f = "", (alphabet:find(x) - 1)
             for i = 6, 1, -1 do
                 r = r .. (f % 2^i - f % 2^(i - 1) > 0 and "1" or "0")
             end
